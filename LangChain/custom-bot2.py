@@ -46,7 +46,7 @@ qa_chain = RetrievalQA.from_chain_type(
 )
 
 # Consulta
-query = "¿Qué dice el PDF sobre el cliente?"
+query = "¿Cúal es el nombre de la empresa?"
 respuesta = qa_chain.invoke(query)  # ← usando invoke, no run
 
 print(respuesta)
