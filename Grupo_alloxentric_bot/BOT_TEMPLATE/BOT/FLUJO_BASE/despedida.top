@@ -1,0 +1,9 @@
+﻿topic: ~adios keep repeat ()
+
+
+u: 	Adios () 	
+	^jsonundecodestring(%$) Que tenga $buendia.
+
+	$estado = null
+
+

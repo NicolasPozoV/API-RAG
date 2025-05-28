@@ -1,0 +1,113 @@
+topic: ~ayudaState keep repeat ()
+
+t: (!$sp)
+        $sp = 0 
+        $x = ^jsoncreate(TRANSIENT object)
+                $x.intencionContacto =  None
+                $x.intencionBot = CONSULTA_IDENTIDAD
+                $x.comandoAcanal = MAX_3-SILENCE_2
+                $x.comandoReporteria = TIPIFICAR_CONVERSACION
+                $x.argumentoComando.tipificacion = NO_CONTESTAN
+                $x.argumentoComando.codigo = NC
+        [^jsonwrite($x)] 
+        ^jsonundecodestring(%$) Bienvenido a la plataforma de Alloxentric. Necesito que me indiques en qué puedo ayudarte. 
+            Las opciones disponibles son:
+            1. Atención al cliente
+            2. Automatización de llamadas
+            3. Análisis de conversaciones
+            4. Comunicación multicanal
+            5. Otro
+
+u: () 	
+	$x = ^jsoncreate(TRANSIENT object)
+                $x.intencionContacto =  None
+                $x.intencionBot = CONSULTA_TRANSFERENCIA
+                $x.comandoAcanal = None
+        [^jsonwrite($x)]   
+
+a: ATENCION-AL-CUSTOMER ( ~atención_al_cliente ~atencion ~cliente ~atenciones ~servicio ~consultas ~1 ~uno ) 
+        $x = ^jsoncreate(TRANSIENT object)
+                $x.intencionContacto =  BUZON
+                $x.intencionBot = FINALIZAR_CONVERSACION
+                $x.comandoAcanal = FINALIZAR_CONVERSACION
+                $x.comandoReporteria = TIPIFICAR_CONVERSACION
+                $x.argumentoComando.tipificacion = BUZON
+                $x.argumentoComando.codigo = BZ
+        [^jsonwrite($x)] Alloxentric también brinda soporte técnico especializado, resolviendo problemas rápidamente y asegurando la continuidad de los servicios. ¿Cómo puedo ayudarte con el soporte técnico?
+		¿Deseas agendar una reunión para discutir las soluciones de soporte técnico?
+        $estado = null
+	    $sp = null
+
+a: AUTOMATIZACION-DE-LLAMADAS ( ~automatización_de_llamadas ~voz ~automatizada ~bots ~llamada ~automatizacion ~llamadas ~2 ~dos ) 
+        $x = ^jsoncreate(TRANSIENT object)
+                $x.intencionContacto =  BUZON
+                $x.intencionBot = FINALIZAR_CONVERSACION
+                $x.comandoAcanal = FINALIZAR_CONVERSACION
+                $x.comandoReporteria = TIPIFICAR_CONVERSACION
+                $x.argumentoComando.tipificacion = BUZON
+                $x.argumentoComando.codigo = BZ
+        [^jsonwrite($x)] Alloxentric ofrece automatización de llamadas, mejorando la eficiencia y reduciendo costos operativos. ¿Te gustaría saber más sobre nuestras soluciones de automatización de llamadas?
+        $estado = null
+        $sp = null
+
+a: ANALISIS-DE-CONVERSACIONES ( ~análisis_de_conversaciones ~analisis ~conversacion ~estudios ~3 ~tres )
+        $x = ^jsoncreate(TRANSIENT object)
+                $x.intencionContacto =  BUZON
+                $x.intencionBot = FINALIZAR_CONVERSACION
+                $x.comandoAcanal = FINALIZAR_CONVERSACION
+                $x.comandoReporteria = TIPIFICAR_CONVERSACION
+                $x.argumentoComando.tipificacion = BUZON
+                $x.argumentoComando.codigo = BZ
+        [^jsonwrite($x)] Alloxentric proporciona análisis de conversaciones, mejorando la comprensión del cliente y optimizando la comunicación. ¿Te gustaría explorar nuestras soluciones de análisis de conversaciones?
+        $estado = null
+        $sp = null
+
+a: COMUNICACION_MULTICANAL ( ~comunicación_multicanal ~canales ~comunicacion ~multicanales ~4 ~cuatro )
+        $x = ^jsoncreate(TRANSIENT object)
+                $x.intencionContacto =  BUZON
+                $x.intencionBot = FINALIZAR_CONVERSACION
+                $x.comandoAcanal = FINALIZAR_CONVERSACION
+                $x.comandoReporteria = TIPIFICAR_CONVERSACION
+                $x.argumentoComando.tipificacion = BUZON
+                $x.argumentoComando.codigo = BZ
+        [^jsonwrite($x)] Alloxentric facilita la comunicación multicanal, mejorando la experiencia del cliente y optimizando la interacción. ¿Te gustaría saber más sobre nuestras soluciones de comunicación multicanal?
+        $estado = null
+        $sp = null
+
+a: RECHAZA-TRANSFERENCIA ( *~2 [ ~noc ~equivocadoc 0 ]) 
+        $x = ^jsoncreate(TRANSIENT object)
+                $x.intencionContacto =  DECLINA_TRANSFERENCIA
+                $x.intencionBot = FINALIZAR_CONVERSACION
+                $x.comandoAcanal = FINALIZAR_CONVERSACION
+                $x.comandoReporteria = TIPIFICAR_CONVERSACION
+                $x.argumentoComando.tipificacion = DECLINA_TRANSFERENCIA
+                $x.argumentoComando.codigo = DT
+        [^jsonwrite($x)]
+        ^jsonundecodestring(%$) Entiendo, muchas gracias. Que tenga un buen día.
+        $estado = ~conoce
+        $sp = null
+		
+
+a: MENSAJE-VACIO  (%length==0)   $sp += 1	
+	$x = ^jsoncreate(TRANSIENT object)
+                $x.intencionContacto =  MENSAJE_VACIO
+                $x.intencionBot = CONSULTA_TRANSFERENCIA
+                $x.comandoAcanal = None
+                $x.comandoReporteria = TIPIFICAR_CONVERSACION
+                $x.argumentoComando.tipificacion = NO_RESPONDE
+                $x.argumentoComando.codigo = NR
+        [^jsonwrite($x)]	
+	^jsonundecodestring(%$) Por favor indiqueme en que puedo ayudarlo.
+	$estado = ~ustedEs
+
+a: MENSAJE-DESCONOCIDO ( )  $sp += 1	
+	$x = ^jsoncreate(TRANSIENT object)
+                $x.intencionContacto =  MENSAJE_DESCONOCIDO
+                $x.intencionBot = CONSULTA_TRANSFERENCIA
+                $x.comandoAcanal = None
+                $x.comandoReporteria = TIPIFICAR_CONVERSACION
+                $x.argumentoComando.tipificacion = NO_ENTIENDE
+                $x.argumentoComando.codigo = NE
+	[^jsonwrite($x)]	
+	^jsonundecodestring(%$) Por favor indique alguna alternativa para ayudarlo.
+	$estado = ~ustedEs

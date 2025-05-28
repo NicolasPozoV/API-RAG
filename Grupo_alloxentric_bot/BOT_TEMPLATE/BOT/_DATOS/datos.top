@@ -1,0 +1,29 @@
+﻿outputmacro: ^myfunc1(^resp)
+^resp
+
+
+topic: ~datos keep repeat ()
+
+
+u: (%hour>=12) $buendia = una_buena_tarde  $buenosdias = Buenas_Tardes
+
+u: (%hour<12) $buendia = un_buen_día   $buenosdias = Buenos_Dias
+
+u: (\[ _*1 \])  $$data_obb = ^jsonparse(transient NOFAIL  _0 )
+
+u: ( !$obbdatos )
+  $obbdatos=1
+
+  $_endpoint = ^"http://172.0.0.67:5078/getData"
+  $_header = ^" ~Accept: application/json ~Content-Type: application/json "
+
+  $_username = $$data_obb.username
+  $_idconversacion = $$data_obb.idconversacion
+
+  $_group = ^"default"
+
+  $_url = ^join($_endpoint ? username = $_username & group = $_group & id_conversacion = $_idconversacion)
+  $$data = ^jsonopen(direct GET $_url "" $_header)
+  $$data = ^jsonparse(transient NOFAIL $$data )
+
+  $nombre = $$data.nombre
