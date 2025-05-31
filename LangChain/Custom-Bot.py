@@ -1,54 +1,57 @@
-from langchain_weaviate import WeaviateVectorStore
-from langchain_groq import ChatGroq
-from langchain.chains import RetrievalQA
-from dotenv import load_dotenv
-from sentence_transformers import SentenceTransformer
-import weaviate
-import os
+# from langchain_weaviate import WeaviateVectorStore
+# from langchain_groq import ChatGroq
+# from langchain.chains import RetrievalQA
+# from dotenv import load_dotenv
+# from sentence_transformers import SentenceTransformer
+# import weaviate
+# import os
 
-# Cargar variables de entorno
-load_dotenv()
 
-# Embedding con wrapper
-class CustomEmbedding:
-    def __init__(self, model):
-        self.model = model
 
-    def embed_query(self, text):
-        return self.model.encode(text).tolist()
+# # Cargar variables de entorno
+# load_dotenv()
 
-model = SentenceTransformer('all-MiniLM-L6-v2')
-embedding = CustomEmbedding(model)
+# # Embedding con wrapper
+# class CustomEmbedding:
+#     def __init__(self, model):
+#         self.model = model
 
-# Cliente local
-client = weaviate.connect_to_local(port=8080, grpc_port=50051)
+#     def embed_query(self, text):
+#         return self.model.encode(text).tolist()
 
-# Vector store
-vectorstore = WeaviateVectorStore(
-    client=client,
-    index_name="PdfPage",
-    text_key="content",
-    embedding=embedding,
-)
+# model = SentenceTransformer('all-MiniLM-L6-v2')
+# embedding = CustomEmbedding(model)
 
-# LLM desde Groq
-api_key = os.getenv("GROQ_API_KEY")
-llm = ChatGroq(
-    api_key=api_key,
-    model="llama-3.1-8b-instant",
-    temperature=0,
-)
+# # Cliente local
+# client = weaviate.connect_to_local(port=8080, grpc_port=50051)
 
-# QA Chain
-qa_chain = RetrievalQA.from_chain_type(
-    llm=llm,
-    retriever=vectorstore.as_retriever()
-)
 
-# Consulta
-query = "¿Cúal es el nombre de la empresa?"
-respuesta = qa_chain.invoke(query)  # ← usando invoke, no run
+# # Vector store
+# vectorstore = WeaviateVectorStore(
+#     client=client,
+#     index_name="PdfPage",
+#     text_key="content",
+#     embedding=embedding,
+# )
 
-print(respuesta)
+# # LLM desde Groq
+# api_key = os.getenv("GROQ_API_KEY")
+# llm = ChatGroq(
+#     api_key=api_key,
+#     model="llama-3.1-8b-instant",
+#     temperature=0,
+# )
 
-client.close()
+# # QA Chain
+# qa_chain = RetrievalQA.from_chain_type(
+#     llm=llm,
+#     retriever=vectorstore.as_retriever()
+# )
+
+# # Consulta
+# query = "¿Cúales son los Bots de Alloxentric?"
+# respuesta = qa_chain.invoke(query)  # usando invoke, no run
+
+# print(respuesta)
+
+# client.close()
