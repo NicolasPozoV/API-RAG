@@ -5,6 +5,7 @@ from llm.groq_model import load_llm
 from chains.qa_chains import build_qa_chain
 from utils.chatscript_client import send_to_chatscript
 
+from utils.guardar_chat import guardar_conversacion
 
 def main():
     #user_id = null
@@ -24,6 +25,7 @@ def main():
             query = input("Tú: ")
             if query.lower() in ["salir", "exit", "quit"]:
                 print("👋 ¡Hasta luego!")
+                guardar_conversacion(chat_history)
                 break
 
             # Paso 2: Intentar primero con ChatScript
