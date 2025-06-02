@@ -5,16 +5,15 @@ from langchain.chains.qa_with_sources import load_qa_with_sources_chain
 def build_qa_chain(llm, retriever):
     # Prompt para generar la respuesta final basada en documentos
     qa_prompt_template = """
-Eres un asistente experto en la empresa Alloxentric. Solo responde basándote en los documentos proporcionados.
-Si no puedes responder con la información disponible, di: "Lo siento, no tengo información sobre eso".
+        Eres un asistente experto en la empresa Alloxentric. Solo responde basándote en los documentos proporcionados.
+        Si no puedes responder con la información disponible, di: "Lo siento, no tengo información sobre eso".
 
-Pregunta: {question}
+        Pregunta: {question}
 
-Documentos contextuales:
-{context}
+        Documentos contextuales: {context}
 
-Respuesta útil:
-"""
+        Respuesta útil:
+        """
 
     qa_prompt = PromptTemplate(
         input_variables=["context", "question"],

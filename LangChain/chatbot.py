@@ -3,6 +3,7 @@ from retriever.weaviate_client import get_client
 from retriever.vector_store import create_vectorstore
 from llm.groq_model import load_llm
 from chains.qa_chains import build_qa_chain
+from utils.guardar_chat import guardar_conversacion
 
 def main():
     client = get_client()
@@ -35,6 +36,7 @@ def main():
             query = input("Tú: ")
             if query.lower() in ["salir", "exit", "quit"]:
                 print("👋 ¡Hasta luego!")
+                guardar_conversacion(chat_history)
                 break
 
             respuesta = qa_chain.invoke({
