@@ -1,0 +1,25 @@
+2025-06-04 12:02:29,459 - INFO - HTTP Request: GET http://localhost:8080/v1/.well-known/openid-configuration "HTTP/1.1 404 Not Found"
+2025-06-04 12:02:29,922 - INFO - HTTP Request: GET http://localhost:8080/v1/meta "HTTP/1.1 200 OK"
+2025-06-04 12:02:30,820 - INFO - HTTP Request: GET https://pypi.org/pypi/weaviate-client/json "HTTP/1.1 200 OK"
+2025-06-04 12:02:30,848 - INFO - Use pytorch device_name: cpu
+2025-06-04 12:02:30,849 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-04 12:02:35,252 - INFO - HTTP Request: GET http://localhost:8080/v1/schema/PdfPage "HTTP/1.1 200 OK"
+2025-06-04 12:02:35,259 - INFO - HTTP Request: GET http://localhost:8080/v1/schema/PdfPage "HTTP/1.1 200 OK"
+2025-06-04 12:02:43,290 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-04 12:02:43,311 - INFO - [RAG] Query: Hola | Response: Hola, ¿en qué puedo ayudarte en relación con Alloxentric?
+2025-06-04 12:02:58,119 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-04 12:02:59,416 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-04 12:02:59,418 - INFO - [RAG] Query: Necesito información | Response: Puedo proporcionarte información sobre Alloxentric y sus servicios. Nuestros documentos indican que somos una empresa que ofrece soluciones de comunicación omnicanal y utiliza Inteligencia Artificial (IA) para mejorar la calidad de nuestros servicios. Podemos integrarnos con otros sistemas de mesa de ayuda y ofrecemos una plataforma que empodera a nuestros agentes con acceso a información actualizada y medición de la calidad de las interacciones.
+
+Algunos de nuestros servicios y características incluyen:
+
+- Integración con sistemas de mesa de ayuda como Zendesk y SysAid.
+- Uso de IA para mejorar la calidad y automatización de nuestros servicios.
+- Soluciones de comunicación omnicanal que incluyen chatbots para varios canales de mensajería.
+- Capacidad para escalar o reducir servicios con un aviso de 30 días.
+- Acceso a un panel de control e informes para seguimiento del trabajo de agentes y estado de tickets.
+- Creación de materiales de capacitación y documentación para respaldar nuestras acciones.
+
+Nuestros chatbots pueden ser utilizados para una variedad de tareas, como confirmar agendamientos, coordinar entregas de productos, vender productos y servicios, preliquidación de seguros, y soporte técnico. También ofrecemos soporte para múltiples canales de mensajería y podemos transferir conversaciones a llamadas de voz.
+
+Si necesitas más información específica sobre Alloxentric o nuestros servicios, estaré encantado de ayudarte en lo que pueda con la información disponible. ¿Qué información necesitas sobre Alloxentric?
