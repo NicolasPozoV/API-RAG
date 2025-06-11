@@ -1,8 +1,0 @@
-﻿topic: ~intro keep repeat ()
-
-
-t: Intro ()
-   $buenosdias. ^jsonundecodestring(%$)
-
-   $estado = ~ayudaState
-   

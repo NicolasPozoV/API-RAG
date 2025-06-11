@@ -1,0 +1,41 @@
+2025-06-04 11:40:07,696 - INFO - HTTP Request: GET http://localhost:8080/v1/.well-known/openid-configuration "HTTP/1.1 404 Not Found"
+2025-06-04 11:40:08,110 - INFO - HTTP Request: GET http://localhost:8080/v1/meta "HTTP/1.1 200 OK"
+2025-06-04 11:40:08,877 - INFO - HTTP Request: GET https://pypi.org/pypi/weaviate-client/json "HTTP/1.1 200 OK"
+2025-06-04 11:40:08,907 - INFO - Use pytorch device_name: cpu
+2025-06-04 11:40:08,907 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-04 11:40:14,035 - INFO - HTTP Request: GET http://localhost:8080/v1/schema/PdfPage "HTTP/1.1 200 OK"
+2025-06-04 11:40:14,039 - INFO - HTTP Request: GET http://localhost:8080/v1/schema/PdfPage "HTTP/1.1 200 OK"
+2025-06-04 11:40:39,393 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-04 11:40:39,409 - INFO - [RAG] Query: hola | Response: Hola. ¿En qué puedo ayudarte hoy en relación con Alloxentric?
+2025-06-04 11:41:26,488 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-04 11:41:27,574 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-04 11:41:27,577 - INFO - [RAG] Query: & C:/Python313/python.exe "c:/Users/josis/Desktop/Bot Ventas/API-RAG/LangChain/utils/test_chatscript.py" | Response: La pregunta se refiere a cómo replantear una entrada de seguimiento como una pregunta independiente. La entrada de seguimiento proporcionada parece ser una instrucción de línea de comandos para ejecutar un script de Python.
+
+Una posible pregunta replanteada podría ser: "¿Qué hace el script test_chatscript.py?" o "¿Cómo ejecuto el script test_chatscript.py utilizando Python?"
+
+Según los documentos proporcionados, Alloxentric es una empresa que ofrece servicios de soporte al cliente que integran inteligencia artificial para mejorar la calidad y la satisfacción del usuario. Ofrecen soluciones para la automatización de procesos, como chatbots y análisis de voz.
+
+Aunque no hay una conexión directa entre la pregunta y los documentos proporcionados, se puede inferir que el script test_chatscript.py podría estar relacionado con alguna de las soluciones de automatización o inteligencia artificial que ofrece Alloxentric.
+
+Una posible respuesta sería: "El comando & C:/Python313/python.exe 'c:/Users/josis/Desktop/Bot Ventas/API-RAG/LangChain/utils/test_chatscript.py' ejecuta un script de Python que podría estar relacionado con alguna de las soluciones de automatización o inteligencia artificial que ofrece Alloxentric". 
+
+Sin embargo, sin más contexto, es difícil proporcionar una respuesta precisa. 
+
+Una respuesta más adecuada sería: "¿Qué hace el comando & C:/Python313/python.exe 'c:/Users/josis/Desktop/Bot Ventas/API-RAG/LangChain/utils/test_chatscript.py'?". 
+
+Lo siento, no tengo información sobre el contenido o propósito específico del script test_chatscript.py.
+2025-06-04 11:47:02,421 - INFO - HTTP Request: GET http://localhost:8080/v1/.well-known/openid-configuration "HTTP/1.1 404 Not Found"
+2025-06-04 11:47:02,743 - INFO - HTTP Request: GET http://localhost:8080/v1/meta "HTTP/1.1 200 OK"
+2025-06-04 11:47:03,135 - INFO - HTTP Request: GET https://pypi.org/pypi/weaviate-client/json "HTTP/1.1 200 OK"
+2025-06-04 11:47:03,156 - INFO - Use pytorch device_name: cpu
+2025-06-04 11:47:03,156 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-04 11:47:07,234 - INFO - HTTP Request: GET http://localhost:8080/v1/schema/PdfPage "HTTP/1.1 200 OK"
+2025-06-04 11:47:07,238 - INFO - HTTP Request: GET http://localhost:8080/v1/schema/PdfPage "HTTP/1.1 200 OK"
+2025-06-04 11:47:19,420 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-04 11:47:19,428 - INFO - [RAG] Query: hola | Response: Hola. ¿En qué puedo ayudarte hoy en relación con Alloxentric?
+2025-06-04 11:48:47,299 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-04 11:48:47,837 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-04 11:48:47,839 - INFO - [RAG] Query: hola | Response: hola
+2025-06-04 11:48:57,523 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-04 11:48:58,419 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-04 11:48:58,420 - INFO - [RAG] Query: hola que tal | Response: Lo siento, no tengo información sobre eso. La pregunta "¿Hola, qué tal?" es un saludo y no está relacionada con la información proporcionada sobre la empresa Alloxentric.
