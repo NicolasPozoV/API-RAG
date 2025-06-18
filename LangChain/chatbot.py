@@ -38,15 +38,15 @@ def main():
                 guardar_conversacion(chat_history)
                 break
 
-            # Paso 2: Intentar primero con ChatScript
-            cs_response = send_to_chatscript(user_id, query)
-            print(">> llega a ChatScript")
+            # # Paso 2: Intentar primero con ChatScript
+            # cs_response = send_to_chatscript(user_id, query)
+            # print(">> llega a ChatScript")
 
-            if cs_response and cs_response != "__NO_MATCH__":
-                logging.info(f"[ChatScript] Query: {query} | Response: {cs_response}")
-                print("Bot (ChatScript):", cs_response)
-                chat_history.append((query, cs_response))
-                continue
+            # if cs_response and cs_response != "__NO_MATCH__":
+            #     logging.info(f"[ChatScript] Query: {query} | Response: {cs_response}")
+            #     print("Bot (ChatScript):", cs_response)
+            #     chat_history.append((query, cs_response))
+            #     continue
 
             # Paso 3: Si ChatScript no responde, usar RAG
             respuesta = qa_chain.invoke({

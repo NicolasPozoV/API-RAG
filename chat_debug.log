@@ -39,3 +39,20 @@ Lo siento, no tengo información sobre el contenido o propósito específico del sc
 2025-06-04 11:48:57,523 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
 2025-06-04 11:48:58,419 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
 2025-06-04 11:48:58,420 - INFO - [RAG] Query: hola que tal | Response: Lo siento, no tengo información sobre eso. La pregunta "¿Hola, qué tal?" es un saludo y no está relacionada con la información proporcionada sobre la empresa Alloxentric.
+2025-06-18 00:07:17,621 - INFO - HTTP Request: GET http://localhost:8080/v1/.well-known/openid-configuration "HTTP/1.1 404 Not Found"
+2025-06-18 00:07:17,834 - INFO - HTTP Request: GET http://localhost:8080/v1/meta "HTTP/1.1 200 OK"
+2025-06-18 00:07:18,119 - INFO - HTTP Request: GET https://pypi.org/pypi/weaviate-client/json "HTTP/1.1 200 OK"
+2025-06-18 00:07:18,141 - INFO - Use pytorch device_name: cuda
+2025-06-18 00:07:18,142 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-18 00:07:21,492 - INFO - HTTP Request: GET http://localhost:8080/v1/schema/PdfPage "HTTP/1.1 200 OK"
+2025-06-18 00:07:21,494 - INFO - HTTP Request: GET http://localhost:8080/v1/schema/PdfPage "HTTP/1.1 200 OK"
+2025-06-18 00:08:46,923 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-06-18 00:09:31,714 - INFO - HTTP Request: GET http://localhost:8080/v1/.well-known/openid-configuration "HTTP/1.1 404 Not Found"
+2025-06-18 00:09:31,945 - INFO - HTTP Request: GET http://localhost:8080/v1/meta "HTTP/1.1 200 OK"
+2025-06-18 00:09:32,243 - INFO - HTTP Request: GET https://pypi.org/pypi/weaviate-client/json "HTTP/1.1 200 OK"
+2025-06-18 00:09:32,263 - INFO - Use pytorch device_name: cuda
+2025-06-18 00:09:32,263 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-18 00:09:34,882 - INFO - HTTP Request: GET http://localhost:8080/v1/schema/PdfPage "HTTP/1.1 200 OK"
+2025-06-18 00:09:34,884 - INFO - HTTP Request: GET http://localhost:8080/v1/schema/PdfPage "HTTP/1.1 200 OK"
+2025-06-18 00:09:38,798 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-18 00:09:38,805 - INFO - [RAG] Query: hola | Response: Hola. ¿En qué puedo ayudarte en relación con Alloxentric?
