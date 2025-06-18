@@ -78,12 +78,6 @@ Para más detalles sobre cómo configurar y usar Weaviate, consulta el [README m
 
 ## Instalación LangChain
 
-Aquí tienes el README actualizado con las modificaciones solicitadas:
-
----
-
-## Instalación de LangChain
-
 ### Paso 1: Configuración de la API Key de Groq
 
 Para usar LangChain con el modelo Groq, primero necesitas obtener una **API Key** de Groq. Esta clave es necesaria para interactuar con los servicios de Groq.
