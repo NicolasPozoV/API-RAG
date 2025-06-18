@@ -1,4 +1,3 @@
-import logging
 from db.mongo import guardar_usuario
 from embeddings.embedding_model import CustomEmbedding
 from retriever.weaviate_client import get_client
@@ -7,7 +6,14 @@ from llm.groq_model import load_llm
 from chains.qa_chains import build_qa_chain
 from utils.chatscript_client import send_to_chatscript
 from utils.guardar_chat import guardar_conversacion
+import re  # al inicio del archivo
+from utils.validaciones import validar_nombre, validar_telefono, validar_correo
+from config.respuestas_afirmativas import RESPUESTAS_AFIRMATIVAS
+from config.respuestas_salida import RESPUESTAS_SALIDA
 
+# LangChain/chatbot.py
+# Este script implementa un chatbot que utiliza LangChain para responder preguntas
+# relacionadas con la empresa Alloxentric, integrando un modelo de lenguaje,
 
 def main():
     user_id = "usuario1"
@@ -31,15 +37,12 @@ def main():
 
     cita_agendada = False
     datos_guardados = False  # Bandera para evitar guardar duplicado
-    respuestas_afirmativas = [
-        "sí", "si", "síp", "yes", "por supuesto", "claro", "de acuerdo", "me gustaría", "quiero", "agendar", "cita"
-    ]
 
     try:
         while True:
             query = input("Tú: ")
-            if query.lower() in ["salir", "exit", "quit", "adiós", "bye", "hasta luego", "chao", "chau", "terminar", "fin", "cerrar", "salida", "adios"]:
-                print("👋 ¡Hasta luego!")
+            if query.lower() in  RESPUESTAS_SALIDA:
+                print("👋 ¡Hasta luego, recuerda ante cualquier duda puedes contactarnos a info@alloxentric.com!")
                 guardar_conversacion(chat_history)
                 break
 
@@ -51,36 +54,46 @@ def main():
             print("Bot (RAG):", respuesta["answer"])
             chat_history.append((query, respuesta["answer"]))
 
-            # Preguntar solo una vez
-            if not cita_agendada:
+            # # Preguntar solo una vez
+            # if not cita_agendada:
+            #     print("¿Te gustaría agendar una cita para información o consulta?")
+            #     cita_agendada = True
+
+            # Si la respuesta contiene solo "Lo siento, no tengo información sobre eso", pasamos a agendar
+            if "Lo siento, no tengo información sobre eso" in respuesta["answer"]:
+                # Si se está preguntando por agendar una cita, el bot debe proceder con el agendamiento
+                if any(palabra in query.lower() for palabra in ["sí", "ok", "de acuerdo", "perfecto"]):
+                    cita_agendada = True
+                    print("¡Perfecto, vamos a agendar tu cita!")
+
+            # Preguntar solo si no se ha preguntado aún por la cita y no se ha dado una respuesta irrelevante
+            if not cita_agendada and "Lo siento, no tengo información sobre eso" not in respuesta["answer"]:
                 print("¿Te gustaría agendar una cita para información o consulta?")
                 cita_agendada = True
-
-            import re  # al inicio del archivo
-
+        
             # ...
 
-            if any(palabra in query.lower() for palabra in respuestas_afirmativas) and cita_agendada:
+            if any(palabra in query.lower() for palabra in RESPUESTAS_AFIRMATIVAS) and cita_agendada:
                 # Validar nombre
                 while not datos_usuario["nombre"]:
-                    nombre = input("¿Me indicas tu nombre para agendar? ").strip()
-                    if len(nombre) >= 2:
+                    nombre = input("¿Me indica su nombre para agendar? ").strip()
+                    if validar_nombre(nombre):
                         datos_usuario["nombre"] = nombre
                     else:
-                        print("⚠️ El nombre debe tener al menos 2 caracteres.")
+                        print("⚠️ El nombre debe tener al menos 2 caracteres, esto es importante para una agendación correcta.")
 
                 # Validar teléfono
                 while not datos_usuario["telefono"]:
-                    telefono = input("¿Y tu número de teléfono? ").strip()
-                    if telefono.isdigit() and 7 <= len(telefono) <= 15:
+                    telefono = input("¿Por favor indíqueme su número de teléfono (+56 9)? ").strip()
+                    if validar_telefono(telefono):
                         datos_usuario["telefono"] = telefono
                     else:
-                        print("⚠️ Ingresa un número válido (solo dígitos, entre 7 y 15 caracteres).")
+                        print("⚠️ Ingresa un número válido (solo dígitos, entre 8 y 15 caracteres).")
 
                 # Validar correo electrónico
                 while not datos_usuario["correo"]:
-                    correo = input("¿Cuál es tu correo electrónico? ").strip()
-                    if re.match(r"[^@]+@[^@]+\.[^@]+", correo):
+                    correo = input("¿Cuál es su correo electrónico? ").strip()
+                    if validar_correo(correo):
                         datos_usuario["correo"] = correo
                     else:
                         print("⚠️ Ingresa un correo electrónico válido (ej: ejemplo@dominio.com).")

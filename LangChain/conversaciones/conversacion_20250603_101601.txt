@@ -1,4 +1,0 @@
-Turno 1:
-Tú: hola
-Bot: Hola. ¿En qué puedo ayudarte hoy en relación con Alloxentric?
-

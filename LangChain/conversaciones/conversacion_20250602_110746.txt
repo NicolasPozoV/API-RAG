@@ -1,8 +1,0 @@
-Turno 1:
-Tú: hola
-Bot: Hola. ¿En qué puedo ayudarte hoy en relación con Alloxentric?
-
-Turno 2:
-Tú: ayuda
-Bot: En relación con Alloxentric, puedo ayudarte con información sobre sus servicios de soporte al cliente, su plataforma de comunicación omnicanal, su tecnología de Inteligencia Artificial, sus soluciones para la industria retail, y su servicio de Texto a Voz (TTS). Puedo responder preguntas sobre cómo Alloxentric puede ayudar a mejorar el servicio al cliente, reducir costos y aumentar la eficiencia en la gestión de tickets y llamadas. También puedo proporcionar información sobre la seguridad y la integración de sus servicios con otros sistemas. ¿En qué aspecto específico de Alloxentric necesitas ayuda?
-
