@@ -114,11 +114,6 @@ Para instalar las dependencias, simplemente ejecuta el siguiente comando en tu t
 
 Para más detalles sobre cómo configurar y usar el chatbot, consulta el [README más detallado aquí](./LangChain/Readme.md).
 
-
-Aquí tienes la explicación para instalar MongoDB de manera local, asumiendo que ya has añadido la librería de MongoDB en el `requirements.txt`:
-
----
-
 ## Instalación de MongoDB de manera local
 
 Para que tu proyecto funcione correctamente con MongoDB, necesitas instalar y configurar MongoDB de manera local en tu máquina. Sigue estos pasos para instalar MongoDB en tu entorno local.
