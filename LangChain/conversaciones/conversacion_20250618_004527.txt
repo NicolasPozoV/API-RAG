@@ -1,0 +1,36 @@
+Turno 1:
+Tú: hola
+Bot: Hola. ¿En qué puedo ayudarte en relación con Alloxentric?
+
+Turno 2:
+Tú: hola
+Bot: Hola. ¿En qué puedo ayudarte en relación con Alloxentric?
+
+Turno 3:
+Tú: me indicas los servicios de alloxentric
+Bot: Alloxentric ofrece varios servicios relacionados con la comunicación omnicanal y el soporte al cliente. Algunos de los servicios que ofrece son:
+
+1. **Plataforma de Comunicación Omnicanal**: permite la integración con diferentes canales de comunicación, como WhatsApp, SMS, Telegram, Discord, Line, Signal, Twitter, LinkedIn y Facebook.
+2. **Chatbots**: pueden ser utilizados para confirmar agendamientos o citas, coordinar entregas de productos, vender productos y/o servicios, preliquidación de seguros y soporte técnico.
+3. **Soporte de SMS y WhatsApp multiproveedor**: ofrece soporte para múltiples proveedores de SMS y WhatsApp.
+4. **Mesa de Ayuda: Agentes + IA**: un servicio que combina agentes humanos con inteligencia artificial para mejorar el soporte al cliente y reducir el número de tickets que llegan a los agentes humanos hasta en un 40%.
+5. **Medición de calidad automática**: la plataforma mide la calidad de cada interacción de forma automática, permitiendo una mejora continua en todo el proceso.
+6. **Integración con otros medios y traspaso a llamadas de voz**: permite la integración con otros medios y el traspaso a llamadas de voz.
+7. **Doble factor de autenticación**: los chatbots pueden servir como mecanismos de doble factor de autenticación.
+
+En resumen, Alloxentric ofrece una plataforma de comunicación omnicanal que integra diferentes canales de comunicación, chatbots y agentes humanos con inteligencia artificial para mejorar el soporte al cliente y reducir costos.
+
+Turno 4:
+Tú: me indicas los servicios de alloxentric
+Bot: Alloxentric ofrece varios servicios relacionados con la comunicación omnicanal y el soporte al cliente. Algunos de los servicios que ofrece son:
+
+1. **Plataforma de Comunicación Omnicanal**: permite la integración con diferentes canales de comunicación, como WhatsApp, SMS, Telegram, Discord, Line, Signal, Twitter, LinkedIn y Facebook.
+2. **Chatbots**: pueden ser utilizados para confirmar agendamientos o citas, coordinar entregas de productos, vender productos y/o servicios, preliquidación de seguros y soporte técnico.
+3. **Soporte de SMS y WhatsApp multiproveedor**: ofrece soporte para múltiples proveedores de SMS y WhatsApp.
+4. **Mesa de Ayuda: Agentes + IA**: un servicio que combina agentes humanos con inteligencia artificial para mejorar el soporte al cliente y reducir el número de tickets que llegan a los agentes humanos hasta en un 40%.
+5. **Medición de calidad automática**: la plataforma mide la calidad de cada interacción de forma automática, permitiendo una mejora continua en todo el proceso.
+6. **Integración con otros medios y traspaso a llamadas de voz**: permite la integración con otros medios y el traspaso a llamadas de voz.
+7. **Doble factor de autenticación**: los chatbots pueden servir como mecanismos de doble factor de autenticación.
+
+En resumen, Alloxentric ofrece una plataforma de comunicación omnicanal que integra diferentes canales de comunicación, chatbots y agentes humanos con inteligencia artificial para mejorar el soporte al cliente y reducir costos.
+

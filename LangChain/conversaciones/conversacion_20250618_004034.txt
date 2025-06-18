@@ -1,0 +1,48 @@
+Turno 1:
+Tú: hola
+Bot: Hola. ¿En qué puedo ayudarte hoy en relación con Alloxentric?
+
+Turno 2:
+Tú: hola
+Bot: Hola. ¿En qué puedo ayudarte hoy en relación con Alloxentric?
+
+Turno 3:
+Tú: si
+Bot: ¿Qué necesitas saber sobre Alloxentric?
+
+Según los documentos proporcionados, Alloxentric es una empresa que ofrece servicios de soporte al cliente para startups y scaleups, integrando inteligencia artificial para mejorar la calidad y la eficiencia. Algunos de los beneficios de su servicio incluyen:
+
+* Reducción de hasta un 40% en el número de tickets que llegan a los agentes humanos
+* Medición automática de la calidad de cada interacción
+* Integración con otros sistemas de ayuda, como Zendesk y SysAid, sin costo adicional
+* Escalabilidad y flexibilidad en el servicio
+* Acceso a un panel de control e informes para seguimiento del trabajo de cada agente y el estado de cada ticket
+
+Alloxentric también ofrece una solución para optimizar el proceso de cobro de deudas, utilizando inteligencia artificial para predecir la intención de pago de los deudores y clasificarlos en clusters según el nivel de contactabilidad requerido.
+
+Si tienes alguna pregunta específica sobre los servicios o soluciones de Alloxentric, estaré encantado de ayudarte.
+
+Turno 4:
+Tú: si
+Bot: ¿Qué necesitas saber sobre Alloxentric?
+
+Según los documentos proporcionados, Alloxentric es una empresa que ofrece servicios de soporte al cliente para startups y scaleups, integrando inteligencia artificial para mejorar la calidad y la eficiencia. Algunos de los beneficios de su servicio incluyen:
+
+* Reducción de hasta un 40% en el número de tickets que llegan a los agentes humanos
+* Medición automática de la calidad de cada interacción
+* Integración con otros sistemas de ayuda, como Zendesk y SysAid, sin costo adicional
+* Escalabilidad y flexibilidad en el servicio
+* Acceso a un panel de control e informes para seguimiento del trabajo de cada agente y el estado de cada ticket
+
+Alloxentric también ofrece una solución para optimizar el proceso de cobro de deudas, utilizando inteligencia artificial para predecir la intención de pago de los deudores y clasificarlos en clusters según el nivel de contactabilidad requerido.
+
+Si tienes alguna pregunta específica sobre los servicios o soluciones de Alloxentric, estaré encantado de ayudarte.
+
+Turno 5:
+Tú: gracias
+Bot: Puedes estar interesado en cómo Alloxentric puede ayudarte a mejorar tu servicio al cliente mediante la integración de Inteligencia Artificial, la automatización de procesos y la medición de la calidad de las interacciones con tus clientes. También podrías estar interesado en saber más sobre cómo nuestra plataforma puede reducir el número de tickets que llegan a los agentes humanos, mejorar la eficiencia y reducir costos. Además, podrías querer conocer más sobre nuestras certificaciones de seguridad, como ISO27001 y PCI-DSS, y cómo podemos integrarnos con otros sistemas de gestión de tickets como Zendesk y SysAid.
+
+Turno 6:
+Tú: gracias
+Bot: Puedes estar interesado en cómo Alloxentric puede ayudarte a mejorar tu servicio al cliente mediante la integración de Inteligencia Artificial, la automatización de procesos y la medición de la calidad de las interacciones con tus clientes. También podrías estar interesado en saber más sobre cómo nuestra plataforma puede reducir el número de tickets que llegan a los agentes humanos, mejorar la eficiencia y reducir costos. Además, podrías querer conocer más sobre nuestras certificaciones de seguridad, como ISO27001 y PCI-DSS, y cómo podemos integrarnos con otros sistemas de gestión de tickets como Zendesk y SysAid.
+

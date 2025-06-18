@@ -1,0 +1,8 @@
+Turno 1:
+Tú: hola
+Bot: Hola. ¿En qué puedo ayudarte en relación con Alloxentric?
+
+Turno 2:
+Tú: si pero primero dime quien es max
+Bot: Max Kreimerman es el CEO y Fundador de Alloxentric. Su correo electrónico es max.kreimerman@alloxentric.com o max@alloxentric.com y su número de teléfono es +44 7463017549.
+

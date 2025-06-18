@@ -56,3 +56,450 @@ Lo siento, no tengo información sobre el contenido o propósito específico del sc
 2025-06-18 00:09:34,884 - INFO - HTTP Request: GET http://localhost:8080/v1/schema/PdfPage "HTTP/1.1 200 OK"
 2025-06-18 00:09:38,798 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
 2025-06-18 00:09:38,805 - INFO - [RAG] Query: hola | Response: Hola. ¿En qué puedo ayudarte en relación con Alloxentric?
+2025-06-18 00:11:40,221 - INFO - HTTP Request: GET http://localhost:8080/v1/.well-known/openid-configuration "HTTP/1.1 404 Not Found"
+2025-06-18 00:11:40,428 - INFO - HTTP Request: GET http://localhost:8080/v1/meta "HTTP/1.1 200 OK"
+2025-06-18 00:11:40,743 - INFO - HTTP Request: GET https://pypi.org/pypi/weaviate-client/json "HTTP/1.1 200 OK"
+2025-06-18 00:11:40,771 - INFO - Use pytorch device_name: cuda
+2025-06-18 00:11:40,771 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-18 00:11:43,906 - INFO - HTTP Request: GET http://localhost:8080/v1/schema/PdfPage "HTTP/1.1 200 OK"
+2025-06-18 00:11:43,909 - INFO - HTTP Request: GET http://localhost:8080/v1/schema/PdfPage "HTTP/1.1 200 OK"
+2025-06-18 00:11:46,936 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-18 00:11:58,223 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-18 00:11:59,491 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-18 00:15:47,519 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-18 00:15:48,710 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-18 00:15:49,253 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-18 00:15:49,354 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-06-18 00:15:49,354 - INFO - Retrying request to /openai/v1/chat/completions in 11.000000 seconds
+2025-06-18 00:16:00,969 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-18 00:16:01,049 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-06-18 00:16:01,049 - INFO - Retrying request to /openai/v1/chat/completions in 26.000000 seconds
+2025-06-18 00:16:27,571 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-18 00:16:27,665 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-06-18 00:16:27,665 - INFO - Retrying request to /openai/v1/chat/completions in 13.000000 seconds
+2025-06-18 00:16:41,205 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-18 00:16:41,403 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-06-18 00:16:41,403 - INFO - Retrying request to /openai/v1/chat/completions in 28.000000 seconds
+2025-06-18 00:17:09,935 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-18 00:17:10,029 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-06-18 00:17:10,030 - INFO - Retrying request to /openai/v1/chat/completions in 12.000000 seconds
+2025-06-18 00:17:22,535 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-18 00:17:22,621 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-06-18 00:17:22,621 - INFO - Retrying request to /openai/v1/chat/completions in 30.000000 seconds
+2025-06-18 00:17:53,270 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-18 00:17:53,374 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-06-18 00:17:53,374 - INFO - Retrying request to /openai/v1/chat/completions in 1.000000 seconds
+2025-06-18 00:17:55,154 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-18 00:17:55,243 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-06-18 00:17:55,243 - INFO - Retrying request to /openai/v1/chat/completions in 40.000000 seconds
+2025-06-18 00:18:44,415 - INFO - HTTP Request: GET http://localhost:8080/v1/.well-known/openid-configuration "HTTP/1.1 404 Not Found"
+2025-06-18 00:18:44,645 - INFO - HTTP Request: GET http://localhost:8080/v1/meta "HTTP/1.1 200 OK"
+2025-06-18 00:18:44,936 - INFO - HTTP Request: GET https://pypi.org/pypi/weaviate-client/json "HTTP/1.1 200 OK"
+2025-06-18 00:18:44,953 - INFO - Use pytorch device_name: cuda
+2025-06-18 00:18:44,953 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-18 00:18:47,937 - INFO - HTTP Request: GET http://localhost:8080/v1/schema/PdfPage "HTTP/1.1 200 OK"
+2025-06-18 00:18:47,939 - INFO - HTTP Request: GET http://localhost:8080/v1/schema/PdfPage "HTTP/1.1 200 OK"
+2025-06-18 00:18:57,703 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-18 00:20:37,536 - INFO - HTTP Request: GET http://localhost:8080/v1/.well-known/openid-configuration "HTTP/1.1 404 Not Found"
+2025-06-18 00:20:37,746 - INFO - HTTP Request: GET http://localhost:8080/v1/meta "HTTP/1.1 200 OK"
+2025-06-18 00:20:38,059 - INFO - HTTP Request: GET https://pypi.org/pypi/weaviate-client/json "HTTP/1.1 200 OK"
+2025-06-18 00:20:38,087 - INFO - Use pytorch device_name: cuda
+2025-06-18 00:20:38,088 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-18 00:20:40,579 - INFO - HTTP Request: GET http://localhost:8080/v1/schema/PdfPage "HTTP/1.1 200 OK"
+2025-06-18 00:20:40,581 - INFO - HTTP Request: GET http://localhost:8080/v1/schema/PdfPage "HTTP/1.1 200 OK"
+2025-06-18 00:20:45,173 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-18 00:20:54,184 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-18 00:20:54,955 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-18 00:21:06,390 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-18 00:21:06,944 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-18 00:27:07,480 - INFO - HTTP Request: GET http://localhost:8080/v1/.well-known/openid-configuration "HTTP/1.1 404 Not Found"
+2025-06-18 00:27:07,689 - INFO - HTTP Request: GET http://localhost:8080/v1/meta "HTTP/1.1 200 OK"
+2025-06-18 00:27:08,088 - INFO - HTTP Request: GET https://pypi.org/pypi/weaviate-client/json "HTTP/1.1 200 OK"
+2025-06-18 00:27:08,104 - INFO - Use pytorch device_name: cuda
+2025-06-18 00:27:08,104 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-18 00:27:11,575 - INFO - HTTP Request: GET http://localhost:8080/v1/schema/PdfPage "HTTP/1.1 200 OK"
+2025-06-18 00:27:11,576 - INFO - HTTP Request: GET http://localhost:8080/v1/schema/PdfPage "HTTP/1.1 200 OK"
+2025-06-18 00:27:15,637 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-18 00:27:55,644 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-18 00:27:56,396 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-18 00:28:10,988 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 503 Service Unavailable"
+2025-06-18 00:28:10,988 - INFO - Retrying request to /openai/v1/chat/completions in 0.440824 seconds
+2025-06-18 00:28:11,579 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 503 Service Unavailable"
+2025-06-18 00:28:11,580 - INFO - Retrying request to /openai/v1/chat/completions in 0.998477 seconds
+2025-06-18 00:29:21,662 - INFO - HTTP Request: GET http://localhost:8080/v1/.well-known/openid-configuration "HTTP/1.1 404 Not Found"
+2025-06-18 00:29:21,884 - INFO - HTTP Request: GET http://localhost:8080/v1/meta "HTTP/1.1 200 OK"
+2025-06-18 00:29:22,173 - INFO - HTTP Request: GET https://pypi.org/pypi/weaviate-client/json "HTTP/1.1 200 OK"
+2025-06-18 00:29:22,192 - INFO - Use pytorch device_name: cuda
+2025-06-18 00:29:22,192 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-18 00:29:25,486 - INFO - HTTP Request: GET http://localhost:8080/v1/schema/PdfPage "HTTP/1.1 200 OK"
+2025-06-18 00:29:25,488 - INFO - HTTP Request: GET http://localhost:8080/v1/schema/PdfPage "HTTP/1.1 200 OK"
+2025-06-18 00:29:45,926 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 503 Service Unavailable"
+2025-06-18 00:30:32,699 - INFO - HTTP Request: GET http://localhost:8080/v1/.well-known/openid-configuration "HTTP/1.1 404 Not Found"
+2025-06-18 00:30:32,932 - INFO - HTTP Request: GET http://localhost:8080/v1/meta "HTTP/1.1 200 OK"
+2025-06-18 00:30:33,223 - INFO - HTTP Request: GET https://pypi.org/pypi/weaviate-client/json "HTTP/1.1 200 OK"
+2025-06-18 00:30:33,246 - INFO - Use pytorch device_name: cuda
+2025-06-18 00:30:33,246 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-18 00:30:36,454 - INFO - HTTP Request: GET http://localhost:8080/v1/schema/PdfPage "HTTP/1.1 200 OK"
+2025-06-18 00:30:36,456 - INFO - HTTP Request: GET http://localhost:8080/v1/schema/PdfPage "HTTP/1.1 200 OK"
+2025-06-18 00:30:40,777 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-18 00:30:47,922 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-18 00:30:48,314 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-18 00:32:55,908 - INFO - HTTP Request: GET http://localhost:8080/v1/.well-known/openid-configuration "HTTP/1.1 404 Not Found"
+2025-06-18 00:32:56,126 - INFO - HTTP Request: GET http://localhost:8080/v1/meta "HTTP/1.1 200 OK"
+2025-06-18 00:32:56,440 - INFO - HTTP Request: GET https://pypi.org/pypi/weaviate-client/json "HTTP/1.1 200 OK"
+2025-06-18 00:32:56,465 - INFO - Use pytorch device_name: cuda
+2025-06-18 00:32:56,466 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-18 00:32:59,753 - INFO - HTTP Request: GET http://localhost:8080/v1/schema/PdfPage "HTTP/1.1 200 OK"
+2025-06-18 00:32:59,756 - INFO - HTTP Request: GET http://localhost:8080/v1/schema/PdfPage "HTTP/1.1 200 OK"
+2025-06-18 00:33:30,581 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-18 00:33:37,379 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-18 00:33:38,372 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-18 00:35:45,309 - INFO - HTTP Request: GET http://localhost:8080/v1/.well-known/openid-configuration "HTTP/1.1 404 Not Found"
+2025-06-18 00:35:45,517 - INFO - HTTP Request: GET http://localhost:8080/v1/meta "HTTP/1.1 200 OK"
+2025-06-18 00:35:45,804 - INFO - HTTP Request: GET https://pypi.org/pypi/weaviate-client/json "HTTP/1.1 200 OK"
+2025-06-18 00:35:45,821 - INFO - Use pytorch device_name: cuda
+2025-06-18 00:35:45,821 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-18 00:35:49,227 - INFO - HTTP Request: GET http://localhost:8080/v1/schema/PdfPage "HTTP/1.1 200 OK"
+2025-06-18 00:35:49,228 - INFO - HTTP Request: GET http://localhost:8080/v1/schema/PdfPage "HTTP/1.1 200 OK"
+2025-06-18 00:35:54,014 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-18 00:36:18,476 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-18 00:36:19,488 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-18 00:36:29,327 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-18 00:36:30,225 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-18 00:37:21,758 - INFO - HTTP Request: GET http://localhost:8080/v1/.well-known/openid-configuration "HTTP/1.1 404 Not Found"
+2025-06-18 00:37:22,003 - INFO - HTTP Request: GET http://localhost:8080/v1/meta "HTTP/1.1 200 OK"
+2025-06-18 00:37:22,295 - INFO - HTTP Request: GET https://pypi.org/pypi/weaviate-client/json "HTTP/1.1 200 OK"
+2025-06-18 00:37:22,315 - INFO - Use pytorch device_name: cuda
+2025-06-18 00:37:22,315 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-18 00:37:25,676 - INFO - HTTP Request: GET http://localhost:8080/v1/schema/PdfPage "HTTP/1.1 200 OK"
+2025-06-18 00:37:25,677 - INFO - HTTP Request: GET http://localhost:8080/v1/schema/PdfPage "HTTP/1.1 200 OK"
+2025-06-18 00:37:29,718 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-18 00:37:33,222 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-18 00:37:33,894 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-18 00:40:25,914 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-18 00:40:26,552 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-18 00:40:49,976 - INFO - HTTP Request: GET http://localhost:8080/v1/.well-known/openid-configuration "HTTP/1.1 404 Not Found"
+2025-06-18 00:40:50,210 - INFO - HTTP Request: GET http://localhost:8080/v1/meta "HTTP/1.1 200 OK"
+2025-06-18 00:40:50,517 - INFO - HTTP Request: GET https://pypi.org/pypi/weaviate-client/json "HTTP/1.1 200 OK"
+2025-06-18 00:40:50,537 - INFO - Use pytorch device_name: cuda
+2025-06-18 00:40:50,537 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-18 00:40:52,978 - INFO - HTTP Request: GET http://localhost:8080/v1/schema/PdfPage "HTTP/1.1 200 OK"
+2025-06-18 00:40:52,980 - INFO - HTTP Request: GET http://localhost:8080/v1/schema/PdfPage "HTTP/1.1 200 OK"
+2025-06-18 00:43:07,698 - INFO - HTTP Request: GET http://localhost:8080/v1/.well-known/openid-configuration "HTTP/1.1 404 Not Found"
+2025-06-18 00:43:07,917 - INFO - HTTP Request: GET http://localhost:8080/v1/meta "HTTP/1.1 200 OK"
+2025-06-18 00:43:08,237 - INFO - HTTP Request: GET https://pypi.org/pypi/weaviate-client/json "HTTP/1.1 200 OK"
+2025-06-18 00:43:08,254 - INFO - Use pytorch device_name: cuda
+2025-06-18 00:43:08,256 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-18 00:43:10,943 - INFO - HTTP Request: GET http://localhost:8080/v1/schema/PdfPage "HTTP/1.1 200 OK"
+2025-06-18 00:43:10,944 - INFO - HTTP Request: GET http://localhost:8080/v1/schema/PdfPage "HTTP/1.1 200 OK"
+2025-06-18 00:43:13,643 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-18 00:43:21,716 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-18 00:43:22,591 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-18 00:45:40,991 - INFO - HTTP Request: GET http://localhost:8080/v1/.well-known/openid-configuration "HTTP/1.1 404 Not Found"
+2025-06-18 00:45:41,202 - INFO - HTTP Request: GET http://localhost:8080/v1/meta "HTTP/1.1 200 OK"
+2025-06-18 00:45:41,486 - INFO - HTTP Request: GET https://pypi.org/pypi/weaviate-client/json "HTTP/1.1 200 OK"
+2025-06-18 00:45:41,502 - INFO - Use pytorch device_name: cuda
+2025-06-18 00:45:41,502 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-18 00:45:44,589 - INFO - HTTP Request: GET http://localhost:8080/v1/schema/PdfPage "HTTP/1.1 200 OK"
+2025-06-18 00:45:44,591 - INFO - HTTP Request: GET http://localhost:8080/v1/schema/PdfPage "HTTP/1.1 200 OK"
+2025-06-18 00:45:48,288 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-18 00:46:32,912 - INFO - HTTP Request: GET http://localhost:8080/v1/.well-known/openid-configuration "HTTP/1.1 404 Not Found"
+2025-06-18 00:46:33,133 - INFO - HTTP Request: GET http://localhost:8080/v1/meta "HTTP/1.1 200 OK"
+2025-06-18 00:46:33,416 - INFO - HTTP Request: GET https://pypi.org/pypi/weaviate-client/json "HTTP/1.1 200 OK"
+2025-06-18 00:46:33,434 - INFO - Use pytorch device_name: cuda
+2025-06-18 00:46:33,434 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-18 00:46:36,384 - INFO - HTTP Request: GET http://localhost:8080/v1/schema/PdfPage "HTTP/1.1 200 OK"
+2025-06-18 00:46:36,386 - INFO - HTTP Request: GET http://localhost:8080/v1/schema/PdfPage "HTTP/1.1 200 OK"
+2025-06-18 00:46:39,523 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-18 00:46:51,201 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-18 00:46:51,603 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-18 00:48:35,258 - INFO - HTTP Request: GET http://localhost:8080/v1/.well-known/openid-configuration "HTTP/1.1 404 Not Found"
+2025-06-18 00:48:35,466 - INFO - HTTP Request: GET http://localhost:8080/v1/meta "HTTP/1.1 200 OK"
+2025-06-18 00:48:35,753 - INFO - HTTP Request: GET https://pypi.org/pypi/weaviate-client/json "HTTP/1.1 200 OK"
+2025-06-18 00:48:35,770 - INFO - Use pytorch device_name: cuda
+2025-06-18 00:48:35,770 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-18 00:48:39,183 - INFO - HTTP Request: GET http://localhost:8080/v1/schema/PdfPage "HTTP/1.1 200 OK"
+2025-06-18 00:48:39,185 - INFO - HTTP Request: GET http://localhost:8080/v1/schema/PdfPage "HTTP/1.1 200 OK"
+2025-06-18 00:48:44,594 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-18 00:49:00,329 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-18 00:49:01,076 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-18 00:51:03,641 - INFO - HTTP Request: GET http://localhost:8080/v1/.well-known/openid-configuration "HTTP/1.1 404 Not Found"
+2025-06-18 00:51:03,846 - INFO - HTTP Request: GET http://localhost:8080/v1/meta "HTTP/1.1 200 OK"
+2025-06-18 00:51:04,119 - INFO - HTTP Request: GET https://pypi.org/pypi/weaviate-client/json "HTTP/1.1 200 OK"
+2025-06-18 00:51:04,128 - INFO - Use pytorch device_name: cuda
+2025-06-18 00:51:04,128 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-18 00:51:18,353 - INFO - HTTP Request: GET http://localhost:8080/v1/.well-known/openid-configuration "HTTP/1.1 404 Not Found"
+2025-06-18 00:51:18,559 - INFO - HTTP Request: GET http://localhost:8080/v1/meta "HTTP/1.1 200 OK"
+2025-06-18 00:51:18,839 - INFO - HTTP Request: GET https://pypi.org/pypi/weaviate-client/json "HTTP/1.1 200 OK"
+2025-06-18 00:51:18,857 - INFO - Use pytorch device_name: cuda
+2025-06-18 00:51:18,857 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-18 00:51:21,671 - INFO - HTTP Request: GET http://localhost:8080/v1/schema/PdfPage "HTTP/1.1 200 OK"
+2025-06-18 00:51:21,672 - INFO - HTTP Request: GET http://localhost:8080/v1/schema/PdfPage "HTTP/1.1 200 OK"
+2025-06-18 00:51:57,683 - INFO - HTTP Request: GET http://localhost:8080/v1/.well-known/openid-configuration "HTTP/1.1 404 Not Found"
+2025-06-18 00:51:57,890 - INFO - HTTP Request: GET http://localhost:8080/v1/meta "HTTP/1.1 200 OK"
+2025-06-18 00:51:58,165 - INFO - HTTP Request: GET https://pypi.org/pypi/weaviate-client/json "HTTP/1.1 200 OK"
+2025-06-18 00:51:58,182 - INFO - Use pytorch device_name: cuda
+2025-06-18 00:51:58,182 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-18 00:52:01,020 - INFO - HTTP Request: GET http://localhost:8080/v1/schema/PdfPage "HTTP/1.1 200 OK"
+2025-06-18 00:52:01,022 - INFO - HTTP Request: GET http://localhost:8080/v1/schema/PdfPage "HTTP/1.1 200 OK"
+2025-06-18 00:52:04,218 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-18 00:52:19,633 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-18 00:52:20,084 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-18 00:53:28,501 - DEBUG - connect_tcp.started host='localhost' port=8080 local_address=None timeout=5.0 socket_options=None
+2025-06-18 00:53:28,503 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001DDB96709D0>
+2025-06-18 00:53:28,503 - DEBUG - send_request_headers.started request=<Request [b'GET']>
+2025-06-18 00:53:28,504 - DEBUG - send_request_headers.complete
+2025-06-18 00:53:28,504 - DEBUG - send_request_body.started request=<Request [b'GET']>
+2025-06-18 00:53:28,504 - DEBUG - send_request_body.complete
+2025-06-18 00:53:28,504 - DEBUG - receive_response_headers.started request=<Request [b'GET']>
+2025-06-18 00:53:28,504 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 404, b'Not Found', [(b'Access-Control-Allow-Headers', b'Content-Type, Authorization, Batch, X-Openai-Api-Key, X-Openai-Organization, X-Openai-Baseurl, X-Anyscale-Baseurl, X-Anyscale-Api-Key, X-Cohere-Api-Key, X-Cohere-Baseurl, X-Huggingface-Api-Key, X-Azure-Api-Key, X-Azure-Deployment-Id, X-Azure-Resource-Name, X-Azure-Concurrency, X-Azure-Block-Size, X-Google-Api-Key, X-Google-Vertex-Api-Key, X-Google-Studio-Api-Key, X-Goog-Api-Key, X-Goog-Vertex-Api-Key, X-Goog-Studio-Api-Key, X-Palm-Api-Key, X-Jinaai-Api-Key, X-Aws-Access-Key, X-Aws-Secret-Key, X-Voyageai-Baseurl, X-Voyageai-Api-Key, X-Mistral-Baseurl, X-Mistral-Api-Key, X-Anthropic-Baseurl, X-Anthropic-Api-Key, X-Databricks-Endpoint, X-Databricks-Token, X-Databricks-User-Agent, X-Friendli-Token, X-Friendli-Baseurl, X-Weaviate-Api-Key, X-Weaviate-Cluster-Url, X-Nvidia-Api-Key, X-Nvidia-Baseurl'), (b'Access-Control-Allow-Methods', b'*'), (b'Access-Control-Allow-Origin', b'*'), (b'Vary', b'Origin'), (b'Date', b'Wed, 18 Jun 2025 04:53:28 GMT'), (b'Content-Length', b'0')])
+2025-06-18 00:53:28,506 - INFO - HTTP Request: GET http://localhost:8080/v1/.well-known/openid-configuration "HTTP/1.1 404 Not Found"
+2025-06-18 00:53:28,506 - DEBUG - receive_response_body.started request=<Request [b'GET']>
+2025-06-18 00:53:28,506 - DEBUG - receive_response_body.complete
+2025-06-18 00:53:28,506 - DEBUG - response_closed.started
+2025-06-18 00:53:28,507 - DEBUG - response_closed.complete
+2025-06-18 00:53:28,507 - DEBUG - close.started
+2025-06-18 00:53:28,507 - DEBUG - close.complete
+2025-06-18 00:53:28,722 - DEBUG - connect_tcp.started host='localhost' port=8080 local_address=None timeout=5.0 socket_options=None
+2025-06-18 00:53:28,723 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001DDB97BD190>
+2025-06-18 00:53:28,723 - DEBUG - send_request_headers.started request=<Request [b'GET']>
+2025-06-18 00:53:28,724 - DEBUG - send_request_headers.complete
+2025-06-18 00:53:28,724 - DEBUG - send_request_body.started request=<Request [b'GET']>
+2025-06-18 00:53:28,724 - DEBUG - send_request_body.complete
+2025-06-18 00:53:28,724 - DEBUG - receive_response_headers.started request=<Request [b'GET']>
+2025-06-18 00:53:28,725 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Access-Control-Allow-Headers', b'Content-Type, Authorization, Batch, X-Openai-Api-Key, X-Openai-Organization, X-Openai-Baseurl, X-Anyscale-Baseurl, X-Anyscale-Api-Key, X-Cohere-Api-Key, X-Cohere-Baseurl, X-Huggingface-Api-Key, X-Azure-Api-Key, X-Azure-Deployment-Id, X-Azure-Resource-Name, X-Azure-Concurrency, X-Azure-Block-Size, X-Google-Api-Key, X-Google-Vertex-Api-Key, X-Google-Studio-Api-Key, X-Goog-Api-Key, X-Goog-Vertex-Api-Key, X-Goog-Studio-Api-Key, X-Palm-Api-Key, X-Jinaai-Api-Key, X-Aws-Access-Key, X-Aws-Secret-Key, X-Voyageai-Baseurl, X-Voyageai-Api-Key, X-Mistral-Baseurl, X-Mistral-Api-Key, X-Anthropic-Baseurl, X-Anthropic-Api-Key, X-Databricks-Endpoint, X-Databricks-Token, X-Databricks-User-Agent, X-Friendli-Token, X-Friendli-Baseurl, X-Weaviate-Api-Key, X-Weaviate-Cluster-Url, X-Nvidia-Api-Key, X-Nvidia-Baseurl'), (b'Access-Control-Allow-Methods', b'*'), (b'Access-Control-Allow-Origin', b'*'), (b'Content-Type', b'application/json'), (b'Vary', b'Origin'), (b'Date', b'Wed, 18 Jun 2025 04:53:28 GMT'), (b'Content-Length', b'95')])
+2025-06-18 00:53:28,725 - INFO - HTTP Request: GET http://localhost:8080/v1/meta "HTTP/1.1 200 OK"
+2025-06-18 00:53:28,725 - DEBUG - receive_response_body.started request=<Request [b'GET']>
+2025-06-18 00:53:28,726 - DEBUG - receive_response_body.complete
+2025-06-18 00:53:28,726 - DEBUG - response_closed.started
+2025-06-18 00:53:28,726 - DEBUG - response_closed.complete
+2025-06-18 00:53:29,004 - DEBUG - connect_tcp.started host='pypi.org' port=443 local_address=None timeout=2 socket_options=None
+2025-06-18 00:53:29,009 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001DDB97EC350>
+2025-06-18 00:53:29,010 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000001DDB9723650> server_hostname='pypi.org' timeout=2
+2025-06-18 00:53:29,017 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001DDB93FBB50>
+2025-06-18 00:53:29,017 - DEBUG - send_request_headers.started request=<Request [b'GET']>
+2025-06-18 00:53:29,018 - DEBUG - send_request_headers.complete
+2025-06-18 00:53:29,018 - DEBUG - send_request_body.started request=<Request [b'GET']>
+2025-06-18 00:53:29,018 - DEBUG - send_request_body.complete
+2025-06-18 00:53:29,019 - DEBUG - receive_response_headers.started request=<Request [b'GET']>
+2025-06-18 00:53:29,023 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Connection', b'keep-alive'), (b'Content-Length', b'71199'), (b'referrer-policy', b'origin-when-cross-origin'), (b'content-encoding', b'gzip'), (b'access-control-allow-origin', b'*'), (b'x-pypi-last-serial', b'29658353'), (b'access-control-allow-methods', b'GET'), (b'content-security-policy', b"base-uri 'self'; connect-src 'self' https://api.github.com/repos/ https://api.github.com/search/issues https://gitlab.com/api/ https://analytics.python.org fastly-insights.com *.fastly-insights.com *.ethicalads.io https://api.pwnedpasswords.com https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/sre/mathmaps/ https://2p66nmmycsj3.statuspage.io; default-src 'none'; font-src 'self' fonts.gstatic.com; form-action 'self' https://checkout.stripe.com; frame-ancestors 'none'; frame-src 'none'; img-src 'self' https://pypi-camo.freetls.fastly.net/ *.fastly-insights.com *.ethicalads.io ethicalads.blob.core.windows.net; script-src 'self' https://analytics.python.org *.fastly-insights.com *.ethicalads.io 'sha256-U3hKDidudIaxBDEzwGJApJgPEf2mWk6cfMWghrAa6i0=' https://cdn.jsdelivr.net/npm/mathjax@3.2.2/ 'sha256-1CldwzdEg2k1wTmf7s5RWVd7NMXI/7nxxjJM2C4DqII=' 'sha256-0POaN8stWYQxhzjKS+/eOfbbJ/u4YHO5ZagJvLpMypo='; style-src 'self' fonts.googleapis.com *.ethicalads.io 'sha256-2YHqZokjiizkHi1Zt+6ar0XJ0OeEy/egBnlm+MDMtrM=' 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=' 'sha256-JLEjeN9e5dGsz5475WyRaoA4eQOdNPxDIeUhclnJDCE=' 'sha256-mQyxHEuwZJqpxCw3SLmc4YOySNKXunyu2Oiz1r3/wAE=' 'sha256-OCf+kv5Asiwp++8PIevKBYSgnNLNUZvxAp4a7wMLuKA=' 'sha256-h5LOiLhk6wiJrGsG5ItM0KimwzWQH/yAcmoJDJL//bY='; worker-src *.fastly-insights.com"), (b'content-type', b'application/json'), (b'cache-control', b'max-age=900, public'), (b'access-control-max-age', b'86400'), (b'access-control-allow-headers', b'Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since'), (b'etag', b'"yP+S5Vgu/2NVxZY5697Nlw"'), (b'access-control-expose-headers', b'X-PyPI-Last-Serial'), (b'Accept-Ranges', b'bytes'), (b'Date', b'Wed, 18 Jun 2025 04:53:28 GMT'), (b'X-Served-By', b'cache-iad-kjyo7100102-IAD, cache-iad-kjyo7100041-IAD, cache-scl2220071-SCL'), (b'X-Cache', b'MISS, HIT, HIT'), (b'X-Cache-Hits', b'0, 1095, 0'), (b'X-Timer', b'S1750222408.011474,VS0,VE1'), (b'Vary', b'Accept-Encoding'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'X-Frame-Options', b'deny'), (b'X-XSS-Protection', b'1; mode=block'), (b'X-Content-Type-Options', b'nosniff'), (b'X-Permitted-Cross-Domain-Policies', b'none'), (b'Permissions-Policy', b'publickey-credentials-create=(self),publickey-credentials-get=(self),accelerometer=(),ambient-light-sensor=(),autoplay=(),battery=(),camera=(),display-capture=(),document-domain=(),encrypted-media=(),execution-while-not-rendered=(),execution-while-out-of-viewport=(),fullscreen=(),gamepad=(),geolocation=(),gyroscope=(),hid=(),identity-credentials-get=(),idle-detection=(),local-fonts=(),magnetometer=(),microphone=(),midi=(),otp-credentials=(),payment=(),picture-in-picture=(),screen-wake-lock=(),serial=(),speaker-selection=(),storage-access=(),usb=(),web-share=(),xr-spatial-tracking=()')])
+2025-06-18 00:53:29,026 - INFO - HTTP Request: GET https://pypi.org/pypi/weaviate-client/json "HTTP/1.1 200 OK"
+2025-06-18 00:53:29,027 - DEBUG - receive_response_body.started request=<Request [b'GET']>
+2025-06-18 00:53:29,029 - DEBUG - receive_response_body.complete
+2025-06-18 00:53:29,029 - DEBUG - response_closed.started
+2025-06-18 00:53:29,029 - DEBUG - response_closed.complete
+2025-06-18 00:53:29,029 - DEBUG - close.started
+2025-06-18 00:53:29,029 - DEBUG - close.complete
+2025-06-18 00:53:29,043 - INFO - Use pytorch device_name: cuda
+2025-06-18 00:53:29,043 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-18 00:53:29,044 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-06-18 00:53:29,591 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/11" 200 0
+2025-06-18 00:53:29,755 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/11" 200 0
+2025-06-18 00:53:29,917 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/11" 200 0
+2025-06-18 00:53:30,076 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/11" 200 0
+2025-06-18 00:53:30,536 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/11" 200 0
+2025-06-18 00:53:30,979 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json HTTP/11" 404 0
+2025-06-18 00:53:31,139 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/11" 200 0
+2025-06-18 00:53:31,461 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2025-06-18 00:53:31,648 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main HTTP/11" 200 6834
+2025-06-18 00:53:31,815 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/11" 200 6834
+2025-06-18 00:53:31,899 - DEBUG - send_request_headers.started request=<Request [b'GET']>
+2025-06-18 00:53:31,899 - DEBUG - send_request_headers.complete
+2025-06-18 00:53:31,899 - DEBUG - send_request_body.started request=<Request [b'GET']>
+2025-06-18 00:53:31,899 - DEBUG - send_request_body.complete
+2025-06-18 00:53:31,899 - DEBUG - receive_response_headers.started request=<Request [b'GET']>
+2025-06-18 00:53:31,900 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Access-Control-Allow-Headers', b'Content-Type, Authorization, Batch, X-Openai-Api-Key, X-Openai-Organization, X-Openai-Baseurl, X-Anyscale-Baseurl, X-Anyscale-Api-Key, X-Cohere-Api-Key, X-Cohere-Baseurl, X-Huggingface-Api-Key, X-Azure-Api-Key, X-Azure-Deployment-Id, X-Azure-Resource-Name, X-Azure-Concurrency, X-Azure-Block-Size, X-Google-Api-Key, X-Google-Vertex-Api-Key, X-Google-Studio-Api-Key, X-Goog-Api-Key, X-Goog-Vertex-Api-Key, X-Goog-Studio-Api-Key, X-Palm-Api-Key, X-Jinaai-Api-Key, X-Aws-Access-Key, X-Aws-Secret-Key, X-Voyageai-Baseurl, X-Voyageai-Api-Key, X-Mistral-Baseurl, X-Mistral-Api-Key, X-Anthropic-Baseurl, X-Anthropic-Api-Key, X-Databricks-Endpoint, X-Databricks-Token, X-Databricks-User-Agent, X-Friendli-Token, X-Friendli-Baseurl, X-Weaviate-Api-Key, X-Weaviate-Cluster-Url, X-Nvidia-Api-Key, X-Nvidia-Baseurl'), (b'Access-Control-Allow-Methods', b'*'), (b'Access-Control-Allow-Origin', b'*'), (b'Content-Type', b'application/json'), (b'Vary', b'Origin'), (b'Date', b'Wed, 18 Jun 2025 04:53:31 GMT'), (b'Content-Length', b'1549')])
+2025-06-18 00:53:31,900 - INFO - HTTP Request: GET http://localhost:8080/v1/schema/PdfPage "HTTP/1.1 200 OK"
+2025-06-18 00:53:31,900 - DEBUG - receive_response_body.started request=<Request [b'GET']>
+2025-06-18 00:53:31,900 - DEBUG - receive_response_body.complete
+2025-06-18 00:53:31,900 - DEBUG - response_closed.started
+2025-06-18 00:53:31,901 - DEBUG - response_closed.complete
+2025-06-18 00:53:31,901 - DEBUG - send_request_headers.started request=<Request [b'GET']>
+2025-06-18 00:53:31,901 - DEBUG - send_request_headers.complete
+2025-06-18 00:53:31,901 - DEBUG - send_request_body.started request=<Request [b'GET']>
+2025-06-18 00:53:31,901 - DEBUG - send_request_body.complete
+2025-06-18 00:53:31,902 - DEBUG - receive_response_headers.started request=<Request [b'GET']>
+2025-06-18 00:53:31,902 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Access-Control-Allow-Headers', b'Content-Type, Authorization, Batch, X-Openai-Api-Key, X-Openai-Organization, X-Openai-Baseurl, X-Anyscale-Baseurl, X-Anyscale-Api-Key, X-Cohere-Api-Key, X-Cohere-Baseurl, X-Huggingface-Api-Key, X-Azure-Api-Key, X-Azure-Deployment-Id, X-Azure-Resource-Name, X-Azure-Concurrency, X-Azure-Block-Size, X-Google-Api-Key, X-Google-Vertex-Api-Key, X-Google-Studio-Api-Key, X-Goog-Api-Key, X-Goog-Vertex-Api-Key, X-Goog-Studio-Api-Key, X-Palm-Api-Key, X-Jinaai-Api-Key, X-Aws-Access-Key, X-Aws-Secret-Key, X-Voyageai-Baseurl, X-Voyageai-Api-Key, X-Mistral-Baseurl, X-Mistral-Api-Key, X-Anthropic-Baseurl, X-Anthropic-Api-Key, X-Databricks-Endpoint, X-Databricks-Token, X-Databricks-User-Agent, X-Friendli-Token, X-Friendli-Baseurl, X-Weaviate-Api-Key, X-Weaviate-Cluster-Url, X-Nvidia-Api-Key, X-Nvidia-Baseurl'), (b'Access-Control-Allow-Methods', b'*'), (b'Access-Control-Allow-Origin', b'*'), (b'Content-Type', b'application/json'), (b'Vary', b'Origin'), (b'Date', b'Wed, 18 Jun 2025 04:53:31 GMT'), (b'Content-Length', b'1549')])
+2025-06-18 00:53:31,902 - INFO - HTTP Request: GET http://localhost:8080/v1/schema/PdfPage "HTTP/1.1 200 OK"
+2025-06-18 00:53:31,902 - DEBUG - receive_response_body.started request=<Request [b'GET']>
+2025-06-18 00:53:31,902 - DEBUG - receive_response_body.complete
+2025-06-18 00:53:31,902 - DEBUG - response_closed.started
+2025-06-18 00:53:31,902 - DEBUG - response_closed.complete
+2025-06-18 00:53:34,570 - DEBUG - Request options: {'method': 'post', 'url': '/openai/v1/chat/completions', 'files': None, 'idempotency_key': 'stainless-python-retry-d8c873a8-b1f0-4dcb-b9fa-500a9fa57c96', 'json_data': {'messages': [{'role': 'user', 'content': '\n        Eres un asistente experto en la empresa Alloxentric. Solo responde basándote en los documentos proporcionados.\n        Si no puedes responder con la información disponible, di: "Lo siento, no tengo información sobre eso".\n\n        Pregunta: hola\n\n        Documentos contextuales: \n\n        Respuesta útil:\n        '}], 'model': 'meta-llama/llama-4-maverick-17b-128e-instruct', 'n': 1, 'stop': None, 'stream': False, 'temperature': 1e-08}}
+2025-06-18 00:53:34,578 - DEBUG - Sending HTTP Request: POST https://api.groq.com/openai/v1/chat/completions
+2025-06-18 00:53:34,578 - DEBUG - connect_tcp.started host='api.groq.com' port=443 local_address=None timeout=None socket_options=None
+2025-06-18 00:53:34,595 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001DDB9464190>
+2025-06-18 00:53:34,595 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000001DDC16040E0> server_hostname='api.groq.com' timeout=None
+2025-06-18 00:53:34,607 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001DDC134F410>
+2025-06-18 00:53:34,607 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-06-18 00:53:34,608 - DEBUG - send_request_headers.complete
+2025-06-18 00:53:34,608 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-06-18 00:53:34,608 - DEBUG - send_request_body.complete
+2025-06-18 00:53:34,608 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-06-18 00:53:35,062 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Wed, 18 Jun 2025 04:53:34 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Cache-Control', b'private, max-age=0, no-store, no-cache, must-revalidate'), (b'vary', b'Origin'), (b'x-groq-region', b'gcp-southamerica-east1'), (b'x-ratelimit-limit-requests', b'1000'), (b'x-ratelimit-limit-tokens', b'6000'), (b'x-ratelimit-remaining-requests', b'961'), (b'x-ratelimit-remaining-tokens', b'5914'), (b'x-ratelimit-reset-requests', b'54m54.625999999s'), (b'x-ratelimit-reset-tokens', b'860ms'), (b'x-request-id', b'req_01jy0p57ttfy59g6mfr3xgv7aw'), (b'cf-cache-status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=oTXeoyEOGP0yhjeMvZ59UOxMWXUbCI.mkqgY846qadk-1750222414-1.0.1.1-FHsWA5V8UneQEbDACGfDEiTsJmChmQ2RadL6q6RZxSOXDnvjP6mr03INrDkw1Fbh3XpgCdsrEgKLV2dtoQwTYlK4PqIC65n5ZA.RXpI6HWU; path=/; expires=Wed, 18-Jun-25 05:23:34 GMT; domain=.groq.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'95182f05091bb435-SCL'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-06-18 00:53:35,062 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-18 00:53:35,063 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-06-18 00:53:35,063 - DEBUG - receive_response_body.complete
+2025-06-18 00:53:35,063 - DEBUG - response_closed.started
+2025-06-18 00:53:35,063 - DEBUG - response_closed.complete
+2025-06-18 00:53:35,063 - DEBUG - HTTP Response: POST https://api.groq.com/openai/v1/chat/completions "200 OK" Headers({'date': 'Wed, 18 Jun 2025 04:53:34 GMT', 'content-type': 'application/json', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'cache-control': 'private, max-age=0, no-store, no-cache, must-revalidate', 'vary': 'Origin', 'x-groq-region': 'gcp-southamerica-east1', 'x-ratelimit-limit-requests': '1000', 'x-ratelimit-limit-tokens': '6000', 'x-ratelimit-remaining-requests': '961', 'x-ratelimit-remaining-tokens': '5914', 'x-ratelimit-reset-requests': '54m54.625999999s', 'x-ratelimit-reset-tokens': '860ms', 'x-request-id': 'req_01jy0p57ttfy59g6mfr3xgv7aw', 'cf-cache-status': 'DYNAMIC', 'set-cookie': '__cf_bm=oTXeoyEOGP0yhjeMvZ59UOxMWXUbCI.mkqgY846qadk-1750222414-1.0.1.1-FHsWA5V8UneQEbDACGfDEiTsJmChmQ2RadL6q6RZxSOXDnvjP6mr03INrDkw1Fbh3XpgCdsrEgKLV2dtoQwTYlK4PqIC65n5ZA.RXpI6HWU; path=/; expires=Wed, 18-Jun-25 05:23:34 GMT; domain=.groq.com; HttpOnly; Secure; SameSite=None', 'server': 'cloudflare', 'cf-ray': '95182f05091bb435-SCL', 'content-encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'})
+2025-06-18 00:53:35,068 - DEBUG - Estado de cita_agendada antes de preguntar por la cita: False
+2025-06-18 00:53:35,069 - DEBUG - Pregunta sobre agendar una cita.
+2025-06-18 00:53:51,072 - DEBUG - Request options: {'method': 'post', 'url': '/openai/v1/chat/completions', 'files': None, 'idempotency_key': 'stainless-python-retry-0c7cbc47-dcaa-4ccb-80a3-55ebd7f5f775', 'json_data': {'messages': [{'role': 'user', 'content': 'Given the following conversation and a follow up question, rephrase the follow up question to be a standalone question, in its original language.\n\nChat History:\n\nHuman: hola\nAssistant: Hola. ¿En qué puedo ayudarte en relación con Alloxentric?\nHuman: hola\nAssistant: Hola. ¿En qué puedo ayudarte en relación con Alloxentric?\nFollow Up Input: si me indicas primero quien es el presidente de la empresa\nStandalone question:'}], 'model': 'meta-llama/llama-4-maverick-17b-128e-instruct', 'n': 1, 'stop': None, 'stream': False, 'temperature': 1e-08}}
+2025-06-18 00:53:51,072 - DEBUG - Sending HTTP Request: POST https://api.groq.com/openai/v1/chat/completions
+2025-06-18 00:53:51,073 - DEBUG - close.started
+2025-06-18 00:53:51,073 - DEBUG - close.complete
+2025-06-18 00:53:51,073 - DEBUG - connect_tcp.started host='api.groq.com' port=443 local_address=None timeout=None socket_options=None
+2025-06-18 00:53:51,080 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001DDC135F690>
+2025-06-18 00:53:51,080 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000001DDC16040E0> server_hostname='api.groq.com' timeout=None
+2025-06-18 00:53:51,093 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001DDB9692690>
+2025-06-18 00:53:51,093 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-06-18 00:53:51,093 - DEBUG - send_request_headers.complete
+2025-06-18 00:53:51,093 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-06-18 00:53:51,093 - DEBUG - send_request_body.complete
+2025-06-18 00:53:51,094 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-06-18 00:53:51,711 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Wed, 18 Jun 2025 04:53:50 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Cache-Control', b'private, max-age=0, no-store, no-cache, must-revalidate'), (b'vary', b'Origin'), (b'x-groq-region', b'us-central-1'), (b'x-ratelimit-limit-requests', b'1000'), (b'x-ratelimit-limit-tokens', b'6000'), (b'x-ratelimit-remaining-requests', b'960'), (b'x-ratelimit-remaining-tokens', b'5889'), (b'x-ratelimit-reset-requests', b'57m19.556s'), (b'x-ratelimit-reset-tokens', b'1.11s'), (b'x-request-id', b'req_01jy0p5qz5fsbrz9p7e6zx3h24'), (b'via', b'1.1 google'), (b'cf-cache-status', b'DYNAMIC'), (b'Server', b'cloudflare'), (b'CF-RAY', b'95182f6c18c9e797-SCL'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-06-18 00:53:51,711 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-18 00:53:51,711 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-06-18 00:53:51,711 - DEBUG - receive_response_body.complete
+2025-06-18 00:53:51,711 - DEBUG - response_closed.started
+2025-06-18 00:53:51,712 - DEBUG - response_closed.complete
+2025-06-18 00:53:51,712 - DEBUG - HTTP Response: POST https://api.groq.com/openai/v1/chat/completions "200 OK" Headers({'date': 'Wed, 18 Jun 2025 04:53:50 GMT', 'content-type': 'application/json', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'cache-control': 'private, max-age=0, no-store, no-cache, must-revalidate', 'vary': 'Origin', 'x-groq-region': 'us-central-1', 'x-ratelimit-limit-requests': '1000', 'x-ratelimit-limit-tokens': '6000', 'x-ratelimit-remaining-requests': '960', 'x-ratelimit-remaining-tokens': '5889', 'x-ratelimit-reset-requests': '57m19.556s', 'x-ratelimit-reset-tokens': '1.11s', 'x-request-id': 'req_01jy0p5qz5fsbrz9p7e6zx3h24', 'via': '1.1 google', 'cf-cache-status': 'DYNAMIC', 'server': 'cloudflare', 'cf-ray': '95182f6c18c9e797-SCL', 'content-encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'})
+2025-06-18 00:53:51,733 - DEBUG - Request options: {'method': 'post', 'url': '/openai/v1/chat/completions', 'files': None, 'idempotency_key': 'stainless-python-retry-ff47ddb1-3c25-4ca0-864b-4dcf81a5a6c3', 'json_data': {'messages': [{'role': 'user', 'content': '\n        Eres un asistente experto en la empresa Alloxentric. Solo responde basándote en los documentos proporcionados.\n        Si no puedes responder con la información disponible, di: "Lo siento, no tengo información sobre eso".\n\n        Pregunta: To rephrase the follow-up question as a standalone question, we need to consider the context provided by the chat history. The follow-up input is "si me indicas primero quien es el presidente de la empresa," which translates to "if you first indicate to me who the president of the company is." \n\nRephrased as a standalone question in its original language (Spanish), it becomes: "¿Quién es el presidente de Alloxentric?" \n\nThis captures the essence of the request made in the follow-up input, which is to know the president of the company (Alloxentric) before proceeding. \n\nStandalone question: ¿Quién es el presidente de Alloxentric?\n\n        Documentos contextuales: For a startup, providing first, second, or third-line support to its users can be a necessity; what\nstarts as a simple process when you have few customers, grows into a process that consumes\ntime and energy that could be focused on your business.\nAlloxentric has created a service oriented towards startups and scaleups that integrates AI to\nempower agents, with a focus on quality and user satisfaction.\nFor a startup, providing first, second, or third-line support to its users can be a necessity; \nwhat starts as  a s imple proc ess when y ou have few  cu stomers , grows  int o a proce ss tha t consumes\n time and energy that could be focused on your business.Alloxentric has created a service oriented towards startups and scaleups that integrates AI to empower agents, with a focus on quality and user satisfaction.Alloxentric offers a service that enables you to enhance your customer service, measure quality holistically, and gradually integrate automation to manage costs. Our services cover everything from bots to agents, tracking each ticket and measuring quality at every stage of the process. As an AI company, we prioritize automation for its cost and efficiency benefits.\nGive your users the best customer service so you can focus on your business.\nReduces the number of tickets reaching human agents by up to 40% \nReduces the number of\ntickets reaching human\nagents by up to 40% \nOur platform measures the\n quality of each interactio\nn automatically, enabli\nng continuous improvem\nent throughout the process\n\nOptimize your debt collection process. Reduce costs and efforts while improving\ncollection rates for your company.\nDebt collection is one of the most compelled tasks in all sorts of organizations. With ever-\ntightening budgets, optimizing this process is crucial but demands resources and analysis in a\ntimely manner.\nAlloxentric has developed a technology suite to help your company in automizing this process as\nwell as predicting debtors’ payment intent through Artificial Intelligence. The debtors are classified\nin clusters according to the projected minimum contactability level required to obtain the payment,\nso you can improve your resources allocation.\nDebt Collection Optimizer \nUp to 40%\ndecrease in\ncollection costs\nPredictive portfolio analysis\nto identify the optimal\ncollection contractability-mix\nfor a given customer\n\nOur processes and procedures follow ISO 27001 and PCI-DSS\nstandards.\nOur technology can integrate with other help desk systems, such\nas Zendesk and SysAid, at no extra cost.\nYour company does not outsource a human resources management, it\noutsources a business process to obtain better quality, better price, greater\nflexibility, scalability, transparency and security.\nAlloxentric.com\nOur main priority is to provide high-quality service. To achieve\nthis, we have developed a platform that empowers our agents by\nproviding access to the latest product information. We also\nmeasure the quality of every interaction, whether it is voice or text-\nbased. Additionally, we create new knowledge to enhance the\ncapabilities of our agents and customer service bots, resulting in\nmore automated and efficient customer service with better quality\nresponses.\n© 2024, Alloxentric\nThe most comprehensive and flexible solution on the market\nWe want to hear about your contactability needs. Contact Us!  \ninfo@alloxentric.com\nHOW IS IT DONE?\nBy incorporating Artificial Intelligence throughout the entire process\nWe can scale or de-scale your service with just 30 days’ notice. You have\naccess to a dashboard and reporting with monitoring of the work of each\nagent and the status of each ticket, as well as the texts and rules that are\nadded weekly to your support bots.\nWe can create training materials, update your FAQ and continuously generate\ndocumentation to support our actions.\n\n¿Cómo funciona?\nClasificación\n• Un modelo LLM clasifica y \nresume las\nconversaciones, el modelo \nestá en la nube y es \nexclusivo de cada cliente. \nRespuesta\n• Otro modelo LLM genera \nrespuestas a las preguntas, \nes específico de la \nempresa y del ámbito de \ncompetencia.\nCalidad\n• Otro modelo LLM controla \nla calidad de la respuesta. \nHay un grupo de trabajo \nen Alloxentric que tiene \ncomo objetivo buscar \nnuevos y mejores modelos \ncada año.\n\n        Respuesta útil:\n        '}], 'model': 'meta-llama/llama-4-maverick-17b-128e-instruct', 'n': 1, 'stop': None, 'stream': False, 'temperature': 1e-08}}
+2025-06-18 00:53:51,734 - DEBUG - Sending HTTP Request: POST https://api.groq.com/openai/v1/chat/completions
+2025-06-18 00:53:51,734 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-06-18 00:53:51,735 - DEBUG - send_request_headers.complete
+2025-06-18 00:53:51,735 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-06-18 00:53:51,735 - DEBUG - send_request_body.complete
+2025-06-18 00:53:51,735 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-06-18 00:53:52,186 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Wed, 18 Jun 2025 04:53:51 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Cache-Control', b'private, max-age=0, no-store, no-cache, must-revalidate'), (b'vary', b'Origin'), (b'x-groq-region', b'us-central-1'), (b'x-ratelimit-limit-requests', b'1000'), (b'x-ratelimit-limit-tokens', b'6000'), (b'x-ratelimit-remaining-requests', b'959'), (b'x-ratelimit-remaining-tokens', b'4455'), (b'x-ratelimit-reset-requests', b'59m1.758s'), (b'x-ratelimit-reset-tokens', b'15.45s'), (b'x-request-id', b'req_01jy0p5rk4egtr6w8kjkxe0gdq'), (b'via', b'1.1 google'), (b'cf-cache-status', b'DYNAMIC'), (b'Server', b'cloudflare'), (b'CF-RAY', b'95182f701b8be797-SCL'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-06-18 00:53:52,187 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-18 00:53:52,187 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-06-18 00:53:52,187 - DEBUG - receive_response_body.complete
+2025-06-18 00:53:52,187 - DEBUG - response_closed.started
+2025-06-18 00:53:52,187 - DEBUG - response_closed.complete
+2025-06-18 00:53:52,187 - DEBUG - HTTP Response: POST https://api.groq.com/openai/v1/chat/completions "200 OK" Headers({'date': 'Wed, 18 Jun 2025 04:53:51 GMT', 'content-type': 'application/json', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'cache-control': 'private, max-age=0, no-store, no-cache, must-revalidate', 'vary': 'Origin', 'x-groq-region': 'us-central-1', 'x-ratelimit-limit-requests': '1000', 'x-ratelimit-limit-tokens': '6000', 'x-ratelimit-remaining-requests': '959', 'x-ratelimit-remaining-tokens': '4455', 'x-ratelimit-reset-requests': '59m1.758s', 'x-ratelimit-reset-tokens': '15.45s', 'x-request-id': 'req_01jy0p5rk4egtr6w8kjkxe0gdq', 'via': '1.1 google', 'cf-cache-status': 'DYNAMIC', 'server': 'cloudflare', 'cf-ray': '95182f701b8be797-SCL', 'content-encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'})
+2025-06-18 00:53:52,188 - DEBUG - Estado de cita_agendada antes de preguntar por la cita: False
+2025-06-18 00:53:52,188 - DEBUG - Pregunta sobre agendar una cita.
+2025-06-18 00:53:52,189 - DEBUG - cita_agendada actualizado a: True
+2025-06-18 00:54:31,149 - DEBUG - Request options: {'method': 'post', 'url': '/openai/v1/chat/completions', 'files': None, 'idempotency_key': 'stainless-python-retry-c5d1b1c8-3241-44d5-ac28-519cb7be4c9e', 'json_data': {'messages': [{'role': 'user', 'content': 'Given the following conversation and a follow up question, rephrase the follow up question to be a standalone question, in its original language.\n\nChat History:\n\nHuman: hola\nAssistant: Hola. ¿En qué puedo ayudarte en relación con Alloxentric?\nHuman: hola\nAssistant: Hola. ¿En qué puedo ayudarte en relación con Alloxentric?\nHuman: si me indicas primero quien es el presidente de la empresa\nAssistant: Lo siento, no tengo información sobre eso. \n\n(No hay información en los documentos proporcionados sobre quién es el presidente de Alloxentric)\nHuman: si me indicas primero quien es el presidente de la empresa\nAssistant: Lo siento, no tengo información sobre eso. \n\n(No hay información en los documentos proporcionados sobre quién es el presidente de Alloxentric)\nFollow Up Input: adios\nStandalone question:'}], 'model': 'meta-llama/llama-4-maverick-17b-128e-instruct', 'n': 1, 'stop': None, 'stream': False, 'temperature': 1e-08}}
+2025-06-18 00:54:31,149 - DEBUG - Sending HTTP Request: POST https://api.groq.com/openai/v1/chat/completions
+2025-06-18 00:54:31,149 - DEBUG - close.started
+2025-06-18 00:54:31,149 - DEBUG - close.complete
+2025-06-18 00:54:31,149 - DEBUG - connect_tcp.started host='api.groq.com' port=443 local_address=None timeout=None socket_options=None
+2025-06-18 00:54:31,156 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001DDC1406ED0>
+2025-06-18 00:54:31,157 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000001DDC16040E0> server_hostname='api.groq.com' timeout=None
+2025-06-18 00:54:31,171 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001DDC1408B90>
+2025-06-18 00:54:31,172 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-06-18 00:54:31,172 - DEBUG - send_request_headers.complete
+2025-06-18 00:54:31,172 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-06-18 00:54:31,172 - DEBUG - send_request_body.complete
+2025-06-18 00:54:31,172 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-06-18 00:54:54,846 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Wed, 18 Jun 2025 04:54:53 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Cache-Control', b'private, max-age=0, no-store, no-cache, must-revalidate'), (b'vary', b'Origin'), (b'x-groq-region', b'gcp-southamerica-east1'), (b'x-ratelimit-limit-requests', b'1000'), (b'x-ratelimit-limit-tokens', b'6000'), (b'x-ratelimit-remaining-requests', b'958'), (b'x-ratelimit-remaining-tokens', b'5791'), (b'x-ratelimit-reset-requests', b'59m49.475s'), (b'x-ratelimit-reset-tokens', b'2.089999999s'), (b'x-request-id', b'req_01jy0p6z2nfy683n3kqrh05ve3'), (b'cf-cache-status', b'DYNAMIC'), (b'Server', b'cloudflare'), (b'CF-RAY', b'951830669df3b528-SCL'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-06-18 00:54:54,846 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-18 00:54:54,846 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-06-18 00:54:54,847 - DEBUG - receive_response_body.complete
+2025-06-18 00:54:54,847 - DEBUG - response_closed.started
+2025-06-18 00:54:54,847 - DEBUG - response_closed.complete
+2025-06-18 00:54:54,847 - DEBUG - HTTP Response: POST https://api.groq.com/openai/v1/chat/completions "200 OK" Headers({'date': 'Wed, 18 Jun 2025 04:54:53 GMT', 'content-type': 'application/json', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'cache-control': 'private, max-age=0, no-store, no-cache, must-revalidate', 'vary': 'Origin', 'x-groq-region': 'gcp-southamerica-east1', 'x-ratelimit-limit-requests': '1000', 'x-ratelimit-limit-tokens': '6000', 'x-ratelimit-remaining-requests': '958', 'x-ratelimit-remaining-tokens': '5791', 'x-ratelimit-reset-requests': '59m49.475s', 'x-ratelimit-reset-tokens': '2.089999999s', 'x-request-id': 'req_01jy0p6z2nfy683n3kqrh05ve3', 'cf-cache-status': 'DYNAMIC', 'server': 'cloudflare', 'cf-ray': '951830669df3b528-SCL', 'content-encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'})
+2025-06-18 00:54:54,862 - DEBUG - Request options: {'method': 'post', 'url': '/openai/v1/chat/completions', 'files': None, 'idempotency_key': 'stainless-python-retry-18827a68-7058-42fa-8faf-a21038c0d4b7', 'json_data': {'messages': [{'role': 'user', 'content': '\n        Eres un asistente experto en la empresa Alloxentric. Solo responde basándote en los documentos proporcionados.\n        Si no puedes responder con la información disponible, di: "Lo siento, no tengo información sobre eso".\n\n        Pregunta: The rephrased standalone question is not applicable here as the follow-up input is not a question. However, if we were to rephrase it to be a standalone statement or question in its original language, it would be: "Adiós" (as it\'s a statement) or a possible question could be "¿Puedo irme?" (implying the same intent as saying "adiós"). But directly, the standalone statement is: "Adiós".\n\n        Documentos contextuales: For a startup, providing first, second, or third-line support to its users can be a necessity; what\nstarts as a simple process when you have few customers, grows into a process that consumes\ntime and energy that could be focused on your business.\nAlloxentric has created a service oriented towards startups and scaleups that integrates AI to\nempower agents, with a focus on quality and user satisfaction.\nFor a startup, providing first, second, or third-line support to its users can be a necessity; \nwhat starts as  a s imple proc ess when y ou have few  cu stomers , grows  int o a proce ss tha t consumes\n time and energy that could be focused on your business.Alloxentric has created a service oriented towards startups and scaleups that integrates AI to empower agents, with a focus on quality and user satisfaction.Alloxentric offers a service that enables you to enhance your customer service, measure quality holistically, and gradually integrate automation to manage costs. Our services cover everything from bots to agents, tracking each ticket and measuring quality at every stage of the process. As an AI company, we prioritize automation for its cost and efficiency benefits.\nGive your users the best customer service so you can focus on your business.\nReduces the number of tickets reaching human agents by up to 40% \nReduces the number of\ntickets reaching human\nagents by up to 40% \nOur platform measures the\n quality of each interactio\nn automatically, enabli\nng continuous improvem\nent throughout the process\n\nOur processes and procedures follow ISO 27001 and PCI-DSS\nstandards.\nOur technology can integrate with other help desk systems, such\nas Zendesk and SysAid, at no extra cost.\nYour company does not outsource a human resources management, it\noutsources a business process to obtain better quality, better price, greater\nflexibility, scalability, transparency and security.\nAlloxentric.com\nOur main priority is to provide high-quality service. To achieve\nthis, we have developed a platform that empowers our agents by\nproviding access to the latest product information. We also\nmeasure the quality of every interaction, whether it is voice or text-\nbased. Additionally, we create new knowledge to enhance the\ncapabilities of our agents and customer service bots, resulting in\nmore automated and efficient customer service with better quality\nresponses.\n© 2024, Alloxentric\nThe most comprehensive and flexible solution on the market\nWe want to hear about your contactability needs. Contact Us!  \ninfo@alloxentric.com\nHOW IS IT DONE?\nBy incorporating Artificial Intelligence throughout the entire process\nWe can scale or de-scale your service with just 30 days’ notice. You have\naccess to a dashboard and reporting with monitoring of the work of each\nagent and the status of each ticket, as well as the texts and rules that are\nadded weekly to your support bots.\nWe can create training materials, update your FAQ and continuously generate\ndocumentation to support our actions.\n\nAlloxentric.com\nOur Collection Optimizer, based on Artificial Intelligence models, analyzes\nthe payment behavior of debtor’s portfolio, identifying patterns and intent  \nto define the minimum action required to obtain payment from a specific\ndebtor. It also advises the best communication channel to perform the\ncollection.\n© 2023, Alloxentric\nThe most comprehensive and flexible solution on the market\nWe want to hear about your contactability needs. Contact Us!  \ninfo@alloxentric.com\nHOW IS IT DONE?\nContact us and learn how we have helped factories, utilities, call centers,\ntransport companies, banks, and others to innovate and optimize their business\nprocesses in a fast and cost-efficient way.\nBy incorporating Artificial Intelligence throughout the entire process\nAnalyzing the effectiveness of those conversations using our CX Analytics\nplatform and identifying opportunities for improvement such as quiet times\nand customer adherence in real or delayed time closes the virtuous\ncollection cycle. \nOur Omnichannel Communication platform integrates voice bots,\nchatbots and agents to interact with borrowers on the most effective\nchannel, consolidating all these interactions on a single screen, minimizing\nyour costs.\nAlloxentric, your partner in the debt collections process\n\nLos requerimientos son clasificados analizando su contenido, en su idioma original\nEtapa 2: Clasificación\n\n        Respuesta útil:\n        '}], 'model': 'meta-llama/llama-4-maverick-17b-128e-instruct', 'n': 1, 'stop': None, 'stream': False, 'temperature': 1e-08}}
+2025-06-18 00:54:54,863 - DEBUG - Sending HTTP Request: POST https://api.groq.com/openai/v1/chat/completions
+2025-06-18 00:54:54,863 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-06-18 00:54:54,863 - DEBUG - send_request_headers.complete
+2025-06-18 00:54:54,865 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-06-18 00:54:54,865 - DEBUG - send_request_body.complete
+2025-06-18 00:54:54,865 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-06-18 00:54:55,739 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Wed, 18 Jun 2025 04:54:54 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Cache-Control', b'private, max-age=0, no-store, no-cache, must-revalidate'), (b'vary', b'Origin'), (b'x-groq-region', b'gcp-southamerica-east1'), (b'x-ratelimit-limit-requests', b'1000'), (b'x-ratelimit-limit-tokens', b'6000'), (b'x-ratelimit-remaining-requests', b'957'), (b'x-ratelimit-remaining-tokens', b'4444'), (b'x-ratelimit-reset-requests', b'1h1m31.524s'), (b'x-ratelimit-reset-tokens', b'15.555s'), (b'x-request-id', b'req_01jy0p7p6hfy6b737ckfm3jtcs'), (b'cf-cache-status', b'DYNAMIC'), (b'Server', b'cloudflare'), (b'CF-RAY', b'951830faad8bb528-SCL'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-06-18 00:54:55,739 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-18 00:54:55,739 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-06-18 00:54:55,739 - DEBUG - receive_response_body.complete
+2025-06-18 00:54:55,739 - DEBUG - response_closed.started
+2025-06-18 00:54:55,739 - DEBUG - response_closed.complete
+2025-06-18 00:54:55,740 - DEBUG - HTTP Response: POST https://api.groq.com/openai/v1/chat/completions "200 OK" Headers({'date': 'Wed, 18 Jun 2025 04:54:54 GMT', 'content-type': 'application/json', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'cache-control': 'private, max-age=0, no-store, no-cache, must-revalidate', 'vary': 'Origin', 'x-groq-region': 'gcp-southamerica-east1', 'x-ratelimit-limit-requests': '1000', 'x-ratelimit-limit-tokens': '6000', 'x-ratelimit-remaining-requests': '957', 'x-ratelimit-remaining-tokens': '4444', 'x-ratelimit-reset-requests': '1h1m31.524s', 'x-ratelimit-reset-tokens': '15.555s', 'x-request-id': 'req_01jy0p7p6hfy6b737ckfm3jtcs', 'cf-cache-status': 'DYNAMIC', 'server': 'cloudflare', 'cf-ray': '951830faad8bb528-SCL', 'content-encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'})
+2025-06-18 00:54:55,740 - DEBUG - Estado de cita_agendada antes de preguntar por la cita: True
+2025-06-18 00:55:48,109 - DEBUG - close.started
+2025-06-18 00:55:48,109 - DEBUG - close.complete
+2025-06-18 00:55:48,290 - DEBUG - close.started
+2025-06-18 00:55:48,290 - DEBUG - close.complete
+2025-06-18 00:56:04,937 - DEBUG - connect_tcp.started host='localhost' port=8080 local_address=None timeout=5.0 socket_options=None
+2025-06-18 00:56:04,939 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000021043C05E50>
+2025-06-18 00:56:04,941 - DEBUG - send_request_headers.started request=<Request [b'GET']>
+2025-06-18 00:56:04,941 - DEBUG - send_request_headers.complete
+2025-06-18 00:56:04,941 - DEBUG - send_request_body.started request=<Request [b'GET']>
+2025-06-18 00:56:04,941 - DEBUG - send_request_body.complete
+2025-06-18 00:56:04,941 - DEBUG - receive_response_headers.started request=<Request [b'GET']>
+2025-06-18 00:56:04,943 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 404, b'Not Found', [(b'Access-Control-Allow-Headers', b'Content-Type, Authorization, Batch, X-Openai-Api-Key, X-Openai-Organization, X-Openai-Baseurl, X-Anyscale-Baseurl, X-Anyscale-Api-Key, X-Cohere-Api-Key, X-Cohere-Baseurl, X-Huggingface-Api-Key, X-Azure-Api-Key, X-Azure-Deployment-Id, X-Azure-Resource-Name, X-Azure-Concurrency, X-Azure-Block-Size, X-Google-Api-Key, X-Google-Vertex-Api-Key, X-Google-Studio-Api-Key, X-Goog-Api-Key, X-Goog-Vertex-Api-Key, X-Goog-Studio-Api-Key, X-Palm-Api-Key, X-Jinaai-Api-Key, X-Aws-Access-Key, X-Aws-Secret-Key, X-Voyageai-Baseurl, X-Voyageai-Api-Key, X-Mistral-Baseurl, X-Mistral-Api-Key, X-Anthropic-Baseurl, X-Anthropic-Api-Key, X-Databricks-Endpoint, X-Databricks-Token, X-Databricks-User-Agent, X-Friendli-Token, X-Friendli-Baseurl, X-Weaviate-Api-Key, X-Weaviate-Cluster-Url, X-Nvidia-Api-Key, X-Nvidia-Baseurl'), (b'Access-Control-Allow-Methods', b'*'), (b'Access-Control-Allow-Origin', b'*'), (b'Vary', b'Origin'), (b'Date', b'Wed, 18 Jun 2025 04:56:04 GMT'), (b'Content-Length', b'0')])
+2025-06-18 00:56:04,943 - INFO - HTTP Request: GET http://localhost:8080/v1/.well-known/openid-configuration "HTTP/1.1 404 Not Found"
+2025-06-18 00:56:04,944 - DEBUG - receive_response_body.started request=<Request [b'GET']>
+2025-06-18 00:56:04,944 - DEBUG - receive_response_body.complete
+2025-06-18 00:56:04,944 - DEBUG - response_closed.started
+2025-06-18 00:56:04,944 - DEBUG - response_closed.complete
+2025-06-18 00:56:04,945 - DEBUG - close.started
+2025-06-18 00:56:04,945 - DEBUG - close.complete
+2025-06-18 00:56:05,154 - DEBUG - connect_tcp.started host='localhost' port=8080 local_address=None timeout=5.0 socket_options=None
+2025-06-18 00:56:05,156 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000021043C79C90>
+2025-06-18 00:56:05,156 - DEBUG - send_request_headers.started request=<Request [b'GET']>
+2025-06-18 00:56:05,156 - DEBUG - send_request_headers.complete
+2025-06-18 00:56:05,156 - DEBUG - send_request_body.started request=<Request [b'GET']>
+2025-06-18 00:56:05,156 - DEBUG - send_request_body.complete
+2025-06-18 00:56:05,157 - DEBUG - receive_response_headers.started request=<Request [b'GET']>
+2025-06-18 00:56:05,157 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Access-Control-Allow-Headers', b'Content-Type, Authorization, Batch, X-Openai-Api-Key, X-Openai-Organization, X-Openai-Baseurl, X-Anyscale-Baseurl, X-Anyscale-Api-Key, X-Cohere-Api-Key, X-Cohere-Baseurl, X-Huggingface-Api-Key, X-Azure-Api-Key, X-Azure-Deployment-Id, X-Azure-Resource-Name, X-Azure-Concurrency, X-Azure-Block-Size, X-Google-Api-Key, X-Google-Vertex-Api-Key, X-Google-Studio-Api-Key, X-Goog-Api-Key, X-Goog-Vertex-Api-Key, X-Goog-Studio-Api-Key, X-Palm-Api-Key, X-Jinaai-Api-Key, X-Aws-Access-Key, X-Aws-Secret-Key, X-Voyageai-Baseurl, X-Voyageai-Api-Key, X-Mistral-Baseurl, X-Mistral-Api-Key, X-Anthropic-Baseurl, X-Anthropic-Api-Key, X-Databricks-Endpoint, X-Databricks-Token, X-Databricks-User-Agent, X-Friendli-Token, X-Friendli-Baseurl, X-Weaviate-Api-Key, X-Weaviate-Cluster-Url, X-Nvidia-Api-Key, X-Nvidia-Baseurl'), (b'Access-Control-Allow-Methods', b'*'), (b'Access-Control-Allow-Origin', b'*'), (b'Content-Type', b'application/json'), (b'Vary', b'Origin'), (b'Date', b'Wed, 18 Jun 2025 04:56:05 GMT'), (b'Content-Length', b'95')])
+2025-06-18 00:56:05,158 - INFO - HTTP Request: GET http://localhost:8080/v1/meta "HTTP/1.1 200 OK"
+2025-06-18 00:56:05,158 - DEBUG - receive_response_body.started request=<Request [b'GET']>
+2025-06-18 00:56:05,158 - DEBUG - receive_response_body.complete
+2025-06-18 00:56:05,158 - DEBUG - response_closed.started
+2025-06-18 00:56:05,158 - DEBUG - response_closed.complete
+2025-06-18 00:56:05,426 - DEBUG - connect_tcp.started host='pypi.org' port=443 local_address=None timeout=2 socket_options=None
+2025-06-18 00:56:05,432 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000021043CACF90>
+2025-06-18 00:56:05,433 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x0000021043BE3650> server_hostname='pypi.org' timeout=2
+2025-06-18 00:56:05,439 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000021043CAD050>
+2025-06-18 00:56:05,439 - DEBUG - send_request_headers.started request=<Request [b'GET']>
+2025-06-18 00:56:05,439 - DEBUG - send_request_headers.complete
+2025-06-18 00:56:05,440 - DEBUG - send_request_body.started request=<Request [b'GET']>
+2025-06-18 00:56:05,440 - DEBUG - send_request_body.complete
+2025-06-18 00:56:05,440 - DEBUG - receive_response_headers.started request=<Request [b'GET']>
+2025-06-18 00:56:05,446 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Connection', b'keep-alive'), (b'Content-Length', b'71199'), (b'referrer-policy', b'origin-when-cross-origin'), (b'content-encoding', b'gzip'), (b'access-control-allow-origin', b'*'), (b'x-pypi-last-serial', b'29658353'), (b'access-control-allow-methods', b'GET'), (b'content-security-policy', b"base-uri 'self'; connect-src 'self' https://api.github.com/repos/ https://api.github.com/search/issues https://gitlab.com/api/ https://analytics.python.org fastly-insights.com *.fastly-insights.com *.ethicalads.io https://api.pwnedpasswords.com https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/sre/mathmaps/ https://2p66nmmycsj3.statuspage.io; default-src 'none'; font-src 'self' fonts.gstatic.com; form-action 'self' https://checkout.stripe.com; frame-ancestors 'none'; frame-src 'none'; img-src 'self' https://pypi-camo.freetls.fastly.net/ *.fastly-insights.com *.ethicalads.io ethicalads.blob.core.windows.net; script-src 'self' https://analytics.python.org *.fastly-insights.com *.ethicalads.io 'sha256-U3hKDidudIaxBDEzwGJApJgPEf2mWk6cfMWghrAa6i0=' https://cdn.jsdelivr.net/npm/mathjax@3.2.2/ 'sha256-1CldwzdEg2k1wTmf7s5RWVd7NMXI/7nxxjJM2C4DqII=' 'sha256-0POaN8stWYQxhzjKS+/eOfbbJ/u4YHO5ZagJvLpMypo='; style-src 'self' fonts.googleapis.com *.ethicalads.io 'sha256-2YHqZokjiizkHi1Zt+6ar0XJ0OeEy/egBnlm+MDMtrM=' 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=' 'sha256-JLEjeN9e5dGsz5475WyRaoA4eQOdNPxDIeUhclnJDCE=' 'sha256-mQyxHEuwZJqpxCw3SLmc4YOySNKXunyu2Oiz1r3/wAE=' 'sha256-OCf+kv5Asiwp++8PIevKBYSgnNLNUZvxAp4a7wMLuKA=' 'sha256-h5LOiLhk6wiJrGsG5ItM0KimwzWQH/yAcmoJDJL//bY='; worker-src *.fastly-insights.com"), (b'content-type', b'application/json'), (b'cache-control', b'max-age=900, public'), (b'access-control-max-age', b'86400'), (b'access-control-allow-headers', b'Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since'), (b'etag', b'"yP+S5Vgu/2NVxZY5697Nlw"'), (b'access-control-expose-headers', b'X-PyPI-Last-Serial'), (b'Accept-Ranges', b'bytes'), (b'Date', b'Wed, 18 Jun 2025 04:56:04 GMT'), (b'X-Served-By', b'cache-iad-kjyo7100102-IAD, cache-iad-kjyo7100041-IAD, cache-scl2220035-SCL'), (b'X-Cache', b'MISS, HIT, HIT'), (b'X-Cache-Hits', b'0, 1095, 1'), (b'X-Timer', b'S1750222564.442887,VS0,VE1'), (b'Vary', b'Accept-Encoding'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'X-Frame-Options', b'deny'), (b'X-XSS-Protection', b'1; mode=block'), (b'X-Content-Type-Options', b'nosniff'), (b'X-Permitted-Cross-Domain-Policies', b'none'), (b'Permissions-Policy', b'publickey-credentials-create=(self),publickey-credentials-get=(self),accelerometer=(),ambient-light-sensor=(),autoplay=(),battery=(),camera=(),display-capture=(),document-domain=(),encrypted-media=(),execution-while-not-rendered=(),execution-while-out-of-viewport=(),fullscreen=(),gamepad=(),geolocation=(),gyroscope=(),hid=(),identity-credentials-get=(),idle-detection=(),local-fonts=(),magnetometer=(),microphone=(),midi=(),otp-credentials=(),payment=(),picture-in-picture=(),screen-wake-lock=(),serial=(),speaker-selection=(),storage-access=(),usb=(),web-share=(),xr-spatial-tracking=()')])
+2025-06-18 00:56:05,447 - INFO - HTTP Request: GET https://pypi.org/pypi/weaviate-client/json "HTTP/1.1 200 OK"
+2025-06-18 00:56:05,447 - DEBUG - receive_response_body.started request=<Request [b'GET']>
+2025-06-18 00:56:05,451 - DEBUG - receive_response_body.complete
+2025-06-18 00:56:05,451 - DEBUG - response_closed.started
+2025-06-18 00:56:05,451 - DEBUG - response_closed.complete
+2025-06-18 00:56:05,452 - DEBUG - close.started
+2025-06-18 00:56:05,452 - DEBUG - close.complete
+2025-06-18 00:56:05,467 - INFO - Use pytorch device_name: cuda
+2025-06-18 00:56:05,468 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-18 00:56:05,469 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-06-18 00:56:05,744 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/11" 200 0
+2025-06-18 00:56:05,903 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/11" 200 0
+2025-06-18 00:56:06,069 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/11" 200 0
+2025-06-18 00:56:06,227 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/11" 200 0
+2025-06-18 00:56:06,384 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/11" 200 0
+2025-06-18 00:56:06,546 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json HTTP/11" 404 0
+2025-06-18 00:56:06,703 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/11" 200 0
+2025-06-18 00:56:07,349 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2025-06-18 00:56:07,541 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main HTTP/11" 200 6834
+2025-06-18 00:56:07,719 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/11" 200 6834
+2025-06-18 00:56:07,802 - DEBUG - send_request_headers.started request=<Request [b'GET']>
+2025-06-18 00:56:07,803 - DEBUG - send_request_headers.complete
+2025-06-18 00:56:07,803 - DEBUG - send_request_body.started request=<Request [b'GET']>
+2025-06-18 00:56:07,803 - DEBUG - send_request_body.complete
+2025-06-18 00:56:07,803 - DEBUG - receive_response_headers.started request=<Request [b'GET']>
+2025-06-18 00:56:07,804 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Access-Control-Allow-Headers', b'Content-Type, Authorization, Batch, X-Openai-Api-Key, X-Openai-Organization, X-Openai-Baseurl, X-Anyscale-Baseurl, X-Anyscale-Api-Key, X-Cohere-Api-Key, X-Cohere-Baseurl, X-Huggingface-Api-Key, X-Azure-Api-Key, X-Azure-Deployment-Id, X-Azure-Resource-Name, X-Azure-Concurrency, X-Azure-Block-Size, X-Google-Api-Key, X-Google-Vertex-Api-Key, X-Google-Studio-Api-Key, X-Goog-Api-Key, X-Goog-Vertex-Api-Key, X-Goog-Studio-Api-Key, X-Palm-Api-Key, X-Jinaai-Api-Key, X-Aws-Access-Key, X-Aws-Secret-Key, X-Voyageai-Baseurl, X-Voyageai-Api-Key, X-Mistral-Baseurl, X-Mistral-Api-Key, X-Anthropic-Baseurl, X-Anthropic-Api-Key, X-Databricks-Endpoint, X-Databricks-Token, X-Databricks-User-Agent, X-Friendli-Token, X-Friendli-Baseurl, X-Weaviate-Api-Key, X-Weaviate-Cluster-Url, X-Nvidia-Api-Key, X-Nvidia-Baseurl'), (b'Access-Control-Allow-Methods', b'*'), (b'Access-Control-Allow-Origin', b'*'), (b'Content-Type', b'application/json'), (b'Vary', b'Origin'), (b'Date', b'Wed, 18 Jun 2025 04:56:07 GMT'), (b'Content-Length', b'1549')])
+2025-06-18 00:56:07,804 - INFO - HTTP Request: GET http://localhost:8080/v1/schema/PdfPage "HTTP/1.1 200 OK"
+2025-06-18 00:56:07,804 - DEBUG - receive_response_body.started request=<Request [b'GET']>
+2025-06-18 00:56:07,804 - DEBUG - receive_response_body.complete
+2025-06-18 00:56:07,804 - DEBUG - response_closed.started
+2025-06-18 00:56:07,805 - DEBUG - response_closed.complete
+2025-06-18 00:56:07,805 - DEBUG - send_request_headers.started request=<Request [b'GET']>
+2025-06-18 00:56:07,805 - DEBUG - send_request_headers.complete
+2025-06-18 00:56:07,805 - DEBUG - send_request_body.started request=<Request [b'GET']>
+2025-06-18 00:56:07,806 - DEBUG - send_request_body.complete
+2025-06-18 00:56:07,806 - DEBUG - receive_response_headers.started request=<Request [b'GET']>
+2025-06-18 00:56:07,806 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Access-Control-Allow-Headers', b'Content-Type, Authorization, Batch, X-Openai-Api-Key, X-Openai-Organization, X-Openai-Baseurl, X-Anyscale-Baseurl, X-Anyscale-Api-Key, X-Cohere-Api-Key, X-Cohere-Baseurl, X-Huggingface-Api-Key, X-Azure-Api-Key, X-Azure-Deployment-Id, X-Azure-Resource-Name, X-Azure-Concurrency, X-Azure-Block-Size, X-Google-Api-Key, X-Google-Vertex-Api-Key, X-Google-Studio-Api-Key, X-Goog-Api-Key, X-Goog-Vertex-Api-Key, X-Goog-Studio-Api-Key, X-Palm-Api-Key, X-Jinaai-Api-Key, X-Aws-Access-Key, X-Aws-Secret-Key, X-Voyageai-Baseurl, X-Voyageai-Api-Key, X-Mistral-Baseurl, X-Mistral-Api-Key, X-Anthropic-Baseurl, X-Anthropic-Api-Key, X-Databricks-Endpoint, X-Databricks-Token, X-Databricks-User-Agent, X-Friendli-Token, X-Friendli-Baseurl, X-Weaviate-Api-Key, X-Weaviate-Cluster-Url, X-Nvidia-Api-Key, X-Nvidia-Baseurl'), (b'Access-Control-Allow-Methods', b'*'), (b'Access-Control-Allow-Origin', b'*'), (b'Content-Type', b'application/json'), (b'Vary', b'Origin'), (b'Date', b'Wed, 18 Jun 2025 04:56:07 GMT'), (b'Content-Length', b'1549')])
+2025-06-18 00:56:07,806 - INFO - HTTP Request: GET http://localhost:8080/v1/schema/PdfPage "HTTP/1.1 200 OK"
+2025-06-18 00:56:07,806 - DEBUG - receive_response_body.started request=<Request [b'GET']>
+2025-06-18 00:56:07,806 - DEBUG - receive_response_body.complete
+2025-06-18 00:56:07,806 - DEBUG - response_closed.started
+2025-06-18 00:56:07,806 - DEBUG - response_closed.complete
+2025-06-18 00:56:11,622 - DEBUG - close.started
+2025-06-18 00:56:11,622 - DEBUG - close.complete
