@@ -1,6 +1,6 @@
-# ChatBot conversacional de ventas Alloxentric - Implementación con LangChain, Weaviate y MongoDB
+# 🤖 ChatBot conversacional de ventas Alloxentric - Implementación con LangChain, Weaviate y MongoDB
 
-## Introducción
+## 📚 Introducción
 
 Este proyecto implementa un chatbot interactivo para la empresa **Alloxentric**, diseñado para responder preguntas sobre sus servicios y agendar citas. Utiliza **LangChain** para la integración de un modelo de lenguaje, junto con una base de datos **MongoDB** para almacenar la información del usuario y de las conversaciones, y **Weaviate** como cliente de recuperación de información para consultas más detalladas.
 
@@ -13,7 +13,7 @@ La principal funcionalidad del chatbot es ofrecer asistencia en tiempo real, res
 * **Javier Alonso Nanco Becerra**
 * **Josefa Isadora González Rocha**
 
-## Estructura del Proyecto
+## 🛠️ Estructura del Proyecto
 
 El script principal del proyecto está compuesto por varias dependencias y módulos que permiten interactuar con la base de datos, cargar y almacenar información del usuario, integrar el modelo de lenguaje, y realizar la gestión de las citas.
 
@@ -34,9 +34,9 @@ El chatbot interactúa con el usuario a través de un ciclo de preguntas y respu
 * Constantemente se ofrece la posibilidad de agendar una cita. Al momento de solicitarla se le pide al usuario información para realizar el agendamiento (nombre, teléfono, correo).
 * Guarda la información de la conversación y los datos del usuario en la base de datos MongoDB.
 
-# Instalación
+# 📥 Instalación
 
-## Instalación de Weaviate
+## 📦 Instalación de Weaviate
 
 ### Paso 1: Instalación del Cliente de Weaviate
 
@@ -76,7 +76,7 @@ Para que Weaviate funcione correctamente, es necesario tener Docker corriendo en
 
 Para más detalles sobre cómo configurar y usar Weaviate, consulta el [README más detallado aquí](./weaviate_local/Readme.md).
 
-## Instalación LangChain
+## 🔗 Instalación LangChain
 
 ### Paso 1: Configuración de la API Key de Groq
 
@@ -114,7 +114,7 @@ Para instalar las dependencias, simplemente ejecuta el siguiente comando en tu t
 
 Para más detalles sobre cómo configurar y usar el chatbot, consulta el [README más detallado aquí](./LangChain/Readme.md).
 
-## Instalación de MongoDB de manera local (Opcional)
+## 📍 Instalación de MongoDB de manera local (Opcional)
 
 Para que tu proyecto funcione correctamente con MongoDB, necesitas instalar y configurar MongoDB de manera local en tu máquina. Sigue estos pasos para instalar MongoDB en tu entorno local.
 
