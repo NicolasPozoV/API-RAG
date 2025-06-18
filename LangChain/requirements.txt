@@ -4,3 +4,4 @@ langchain-groq
 weaviate-client
 python-dotenv
 sentence-transformers
+pymongo

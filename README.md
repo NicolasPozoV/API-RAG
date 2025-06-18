@@ -76,6 +76,101 @@ Para que Weaviate funcione correctamente, es necesario tener Docker corriendo en
 
 Para más detalles sobre cómo configurar y usar Weaviate, consulta el [README más detallado aquí](./weaviate_local/Readme.md).
 
+## Instalación LangChain
+
+Aquí tienes el README actualizado con las modificaciones solicitadas:
+
+---
+
+## Instalación de LangChain
+
+### Paso 1: Configuración de la API Key de Groq
+
+Para usar LangChain con el modelo Groq, primero necesitas obtener una **API Key** de Groq. Esta clave es necesaria para interactuar con los servicios de Groq.
+
+1. **Obten la API Key de Groq**:
+
+   * Regístrate en [Groq](https://www.groq.com/).
+   * Obtén tu clave API desde el panel de control de la cuenta de Groq.
+
+2. **Configura la API Key**:
+
+   * Crea un archivo `.env` en el directorio [LangChain](./LangChain/).
+   * Añade la siguiente línea al archivo `.env`, reemplazando `YOUR_API_KEY` con la clave que obtuviste de Groq:
+
+   ```
+   GROQ_API_KEY=YOUR_API_KEY
+   ```
+
+   **Importante**: Este archivo debe estar en el mismo directorio que el script [chatbot.py](./LangChain/chatbot.py) para poder acceder a la clave correctamente.
+
+### Paso 2: Instalación de las Dependencias
+
+A continuación, instala las dependencias necesarias para que el proyecto funcione correctamente. Estas dependencias se encuentran en el archivo `requirements.txt`.
+
+Para instalar las dependencias, simplemente ejecuta el siguiente comando en tu terminal:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+   Esto instalará **LangChain**, **Weaviate Client** y **OpenAI**, junto con cualquier otra librería necesaria que esté listada en el archivo `requirements.txt`.
+
+### Documentación Detallada
+
+Para más detalles sobre cómo configurar y usar el chatbot, consulta el [README más detallado aquí](./LangChain/Readme.md).
+
+
+Aquí tienes la explicación para instalar MongoDB de manera local, asumiendo que ya has añadido la librería de MongoDB en el `requirements.txt`:
+
+---
+
+## Instalación de MongoDB de manera local
+
+Para que tu proyecto funcione correctamente con MongoDB, necesitas instalar y configurar MongoDB de manera local en tu máquina. Sigue estos pasos para instalar MongoDB en tu entorno local.
+
+### Paso 1: Descargar e Instalar MongoDB
+
+1. **Descargar MongoDB**:
+
+   * Dirígete a la página oficial de descargas de MongoDB: [MongoDB Download Center](https://www.mongodb.com/try/download/community).
+   * Selecciona la versión más reciente de **MongoDB Community Server** para tu sistema operativo (Windows, macOS o Linux) y descarga el instalador correspondiente.
+
+2. **Instalar MongoDB (Opcional)**:
+
+En caso de no tener acceso a una base de datos no relacional se puede correr de manera local:
+
+   * Sigue las instrucciones de instalación para tu sistema operativo. Asegúrate de seleccionar la opción para instalar MongoDB como un servicio, lo que te permitirá ejecutar MongoDB en segundo plano sin tener que iniciar el servidor manualmente cada vez.
+   * Para **Windows**, asegúrate de agregar MongoDB al **PATH** durante la instalación para facilitar su ejecución desde la línea de comandos.
+   * Para **macOS y Linux**, la instalación puede realizarse a través de **Homebrew** (macOS) o con el paquete `.tar.gz` o `.deb` disponible en la página de descargas.
+
+### Paso 2: Iniciar MongoDB
+
+Una vez que MongoDB esté instalado en tu máquina, debes iniciar el servidor de MongoDB para que esté listo para recibir conexiones.
+
+* **En Windows**, abre una terminal (CMD o PowerShell) y ejecuta:
+
+  ```bash
+  mongod
+  ```
+
+  Esto iniciará el servidor de MongoDB en el puerto predeterminado `27017`.
+
+* **En macOS/Linux**, si usas **Homebrew** en macOS, puedes iniciar MongoDB con:
+
+  ```bash
+  brew services start mongodb-community@5.0
+  ```
+
+  O simplemente ejecutando:
+
+  ```bash
+  mongod
+  ```
+
+  Esto también iniciará el servidor en el puerto predeterminado `27017`.
+
+
 ### Comando de Salida
 
 Para salir de la conversación, el usuario puede escribir "salir", lo que terminará el ciclo de preguntas y respuestas y almacenará la conversación. El archivo que contiene los comandos para salir se encuentar en [respuestas_salidas.py](./LangChain/config/respuestas_salida.py)
