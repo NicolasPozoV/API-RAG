@@ -13,35 +13,17 @@ La principal funcionalidad del chatbot es ofrecer asistencia en tiempo real, res
 * **Javier Alonso Nanco Becerra**
 * **Josefa Isadora González Rocha**
 
----
-
-Ahora, la introducción incluye a todos los miembros del equipo, dándoles el reconocimiento correspondiente.
-
----
-
 ## Estructura del Proyecto
 
 El script principal del proyecto está compuesto por varias dependencias y módulos que permiten interactuar con la base de datos, cargar y almacenar información del usuario, integrar el modelo de lenguaje, y realizar la gestión de las citas.
 
 ### Principales Componentes
 
-1. **LangChain**: LangChain es una biblioteca de Python diseñada para facilitar el uso de modelos de lenguaje en aplicaciones de múltiples etapas. Este proyecto hace uso de LangChain para construir una cadena de preguntas y respuestas (QA), integrando el modelo Groq para generar respuestas a las preguntas de los usuarios y crear una experiencia de conversación fluida.
+1. **[LangChain](./LangChain/Readme.md)**: LangChain es una biblioteca de Python diseñada para facilitar el uso de modelos de lenguaje en aplicaciones de múltiples etapas. Este proyecto hace uso de LangChain para construir una cadena de preguntas y respuestas (QA), integrando el modelo Groq para generar respuestas a las preguntas de los usuarios y crear una experiencia de conversación fluida.
 
-2. **Weaviate**: Se usa Weaviate como base para la recuperación de información. Weaviate es una base de datos vectorial que permite almacenar y recuperar información de forma eficiente, lo que facilita las consultas semánticas y el uso de embeddings (representaciones vectoriales de las palabras) para obtener respuestas relevantes y precisas.
+2. **[Weaviate](./README.md)**: Se usa Weaviate como base para la recuperación de información. Weaviate es una base de datos vectorial que permite almacenar y recuperar información de forma eficiente, lo que facilita las consultas semánticas y el uso de embeddings (representaciones vectoriales de las palabras) para obtener respuestas relevantes y precisas.
 
-3. **MongoDB**: MongoDB se usa como base de datos para almacenar los datos de los usuarios, como su nombre, correo electrónico y número de teléfono, así como el historial de las conversaciones con el chatbot.
-
----
-
-## Instalación y Dependencias
-
-1. **Instalar las dependencias necesarias**:
-
-2. **Configurar la base de datos MongoDB**:
-
-3. **Weaviate**: 
-
----
+3. **[MongoDB](./LangChain/db/README.md)**: MongoDB se usa como base de datos para almacenar los datos de los usuarios, como su nombre, correo electrónico y número de teléfono, así como el historial de las conversaciones con el chatbot.
 
 ### Funcionamiento General
 
