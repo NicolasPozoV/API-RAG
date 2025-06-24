@@ -1,119 +1,184 @@
+# from db.mongo import guardar_usuario
+# from embeddings.embedding_model import CustomEmbedding
+# from retriever.weaviate_client import get_client
+# from retriever.vector_store import create_vectorstore
+# from llm.groq_model import load_llm
+# from chains.qa_chains import build_qa_chain
+# from chains.extraction import build_extractor_chain
+# from utils.guardar_chat import guardar_conversacion
+# from config.respuestas_salida import RESPUESTAS_SALIDA
+# import json
+# from colorama import init, Fore, Style
+
+# init(autoreset=True)  # Para que los colores se reinicien después de cada línea
+
+# def main():
+#     client = get_client()
+#     embedding_model = CustomEmbedding()
+#     vectorstore = create_vectorstore(client, embedding_model)
+#     llm = load_llm()
+
+#     qa_chain = build_qa_chain(llm, vectorstore.as_retriever())
+#     extractor_chain = build_extractor_chain(llm)
+
+#     print(Fore.CYAN + "🤖 ChatBot Alloxentric - Escribe 'salir' para terminar.\n")
+#     chat_history = []
+
+#     datos_usuario = {
+#         "nombre": None,
+#         "empresa": None,
+#         "necesidad": None,
+#         "correo": None
+#     }
+#     datos_guardados = False
+
+#     try:
+#         while True:
+#             query = input(Fore.GREEN + "Tú: " + Style.RESET_ALL)
+#             if query.lower() in RESPUESTAS_SALIDA:
+#                 print(Fore.CYAN + "👋 ¡Hasta luego, recuerda ante cualquier duda puedes contactarnos a info@alloxentric.com!")
+#                 guardar_conversacion(chat_history)
+#                 break
+
+#             resumen_usuario = f"""
+#                 Nombre: {datos_usuario['nombre'] or 'No proporcionado'}
+#                 Correo: {datos_usuario['correo'] or 'No proporcionado'}
+#                 Empresa: {datos_usuario['empresa'] or 'No proporcionado'}
+#                 Necesidad: {datos_usuario['necesidad'] or 'No proporcionado'}
+#                 """.strip()
+
+#             respuesta = qa_chain.invoke({
+#                 "question": query,
+#                 "chat_history": chat_history,
+#                 "user_data": resumen_usuario
+#             })
+
+
+#             print(Fore.YELLOW + "Bot (RAG):", respuesta["answer"])
+#             chat_history.append((query, respuesta["answer"]))
+
+#             # Extraer datos del historial
+#             resultado = extractor_chain.invoke({"chat_history": str(chat_history)})
+#             try:
+#                 extraidos = json.loads(resultado)
+#                 for key in datos_usuario:
+#                     if not datos_usuario[key] and extraidos.get(key):
+#                         datos_usuario[key] = extraidos[key]
+#             except:
+#                 pass  # LLM no devolvió JSON válido
+
+#             # Guardar si está completo
+#             if all(datos_usuario.values()) and not datos_guardados:
+#                 guardar_usuario(datos_usuario)
+#                 print(Fore.MAGENTA + "✅ Datos del usuario guardados correctamente.")
+#                 datos_guardados = True
+
+#     except KeyboardInterrupt:
+#         print(Fore.RED + "\n🛑 Interrupción del usuario.")
+#         guardar_conversacion(chat_history)
+
+#     finally:
+#         client.close()
+#         if all(datos_usuario.values()) and not datos_guardados:
+#             guardar_usuario(datos_usuario)
+#         print(Fore.CYAN + "🔒 Conexión cerrada y datos guardados.")
+#         print(Fore.BLUE + "Datos guardados:", datos_usuario)
+
+# if __name__ == "__main__":
+#     main()
+
+
 from db.mongo import guardar_usuario
 from embeddings.embedding_model import CustomEmbedding
 from retriever.weaviate_client import get_client
 from retriever.vector_store import create_vectorstore
 from llm.groq_model import load_llm
 from chains.qa_chains import build_qa_chain
-from utils.chatscript_client import send_to_chatscript
+from chains.extraction import build_extractor_chain
 from utils.guardar_chat import guardar_conversacion
-import re  # al inicio del archivo
-from utils.validaciones import validar_nombre, validar_telefono, validar_correo
-from config.respuestas_afirmativas import RESPUESTAS_AFIRMATIVAS
 from config.respuestas_salida import RESPUESTAS_SALIDA
+from utils.json import extraer_json_del_texto
+import json
+from colorama import init, Fore, Style
 
-# LangChain/chatbot.py
-# Este script implementa un chatbot que utiliza LangChain para responder preguntas
-# relacionadas con la empresa Alloxentric, integrando un modelo de lenguaje,
+init(autoreset=True)
+
+
 
 def main():
-    user_id = "usuario1"
-
-    # Paso 1: Cargar dependencias RAG
     client = get_client()
     embedding_model = CustomEmbedding()
     vectorstore = create_vectorstore(client, embedding_model)
     llm = load_llm()
+
     qa_chain = build_qa_chain(llm, vectorstore.as_retriever())
+    extractor_chain = build_extractor_chain(llm)
 
-    print("🤖 ChatBot Alloxentric - Escribe 'salir' para terminar.\n")
+    print(Fore.CYAN + "🤖 ChatBot Alloxentric - Escribe 'salir' para terminar.\n")
+
     chat_history = []
-
-    # Variables para los datos del usuario
-    datos_usuario = {
-        "nombre": None,
-        "correo": None,
-        "telefono": None
-    }
-
-    cita_agendada = False
-    datos_guardados = False  # Bandera para evitar guardar duplicado
+    datos_usuario = {"nombre": None, "empresa": None, "necesidad": None, "correo": None}
+    datos_guardados = False
 
     try:
         while True:
-            query = input("Tú: ")
-            if query.lower() in  RESPUESTAS_SALIDA:
-                print("👋 ¡Hasta luego, recuerda ante cualquier duda puedes contactarnos a info@alloxentric.com!")
+            query = input(Fore.GREEN + "Tú: " + Style.RESET_ALL)
+            if query.lower() in RESPUESTAS_SALIDA:
+                print(Fore.CYAN + "👋 ¡Hasta luego, recuerda ante cualquier duda puedes contactarnos a info@alloxentric.com!")
                 guardar_conversacion(chat_history)
                 break
 
+            # 1. Agregar input provisional (respuesta vacía por ahora)
+            chat_history.append((query, ""))
+
+            # 2. Extraer datos del usuario antes de responder
+            resultado = extractor_chain.invoke({"chat_history": str(chat_history)})
+            json_str = extraer_json_del_texto(resultado.content)
+
+            if json_str:
+                try:
+                    extraidos = json.loads(json_str)
+                    for key in datos_usuario:
+                        if not datos_usuario[key] and extraidos.get(key):
+                            datos_usuario[key] = extraidos[key]
+                except json.JSONDecodeError:
+                    pass
+
+            # 3. Crear resumen con los datos ya extraídos
+            resumen_usuario = f"""
+                Nombre: {datos_usuario['nombre'] or 'No proporcionado'}
+                Correo: {datos_usuario['correo'] or 'No proporcionado'}
+                Empresa: {datos_usuario['empresa'] or 'No proporcionado'}
+                Necesidad: {datos_usuario['necesidad'] or 'No proporcionado'}
+                """.strip()
+
+            # 4. Obtener respuesta del bot usando el resumen actualizado
             respuesta = qa_chain.invoke({
                 "question": query,
-                "chat_history": chat_history
+                "chat_history": chat_history,
+                "user_data": resumen_usuario
             })
 
-            print("Bot (RAG):", respuesta["answer"])
-            chat_history.append((query, respuesta["answer"]))
+            # 5. Actualizar historial con la respuesta real
+            chat_history[-1] = (query, respuesta["answer"])
+            print(Fore.YELLOW + "Bot (RAG):", respuesta["answer"])
 
-            # # Preguntar solo una vez
-            # if not cita_agendada:
-            #     print("¿Te gustaría agendar una cita para información o consulta?")
-            #     cita_agendada = True
-
-            # Si la respuesta contiene solo "Lo siento, no tengo información sobre eso", pasamos a agendar
-            if "Lo siento, no tengo información sobre eso" in respuesta["answer"]:
-                # Si se está preguntando por agendar una cita, el bot debe proceder con el agendamiento
-                if any(palabra in query.lower() for palabra in ["sí", "ok", "de acuerdo", "perfecto"]):
-                    cita_agendada = True
-                    print("¡Perfecto, vamos a agendar tu cita!")
-
-            # Preguntar solo si no se ha preguntado aún por la cita y no se ha dado una respuesta irrelevante
-            if not cita_agendada and "Lo siento, no tengo información sobre eso" not in respuesta["answer"]:
-                print("¿Te gustaría agendar una cita para información o consulta?")
-                cita_agendada = True
-        
-            # ...
-
-            if any(palabra in query.lower() for palabra in RESPUESTAS_AFIRMATIVAS) and cita_agendada:
-                # Validar nombre
-                while not datos_usuario["nombre"]:
-                    nombre = input("¿Me indica su nombre para agendar? ").strip()
-                    if validar_nombre(nombre):
-                        datos_usuario["nombre"] = nombre
-                    else:
-                        print("⚠️ El nombre debe tener al menos 2 caracteres, esto es importante para una agendación correcta.")
-
-                # Validar teléfono
-                while not datos_usuario["telefono"]:
-                    telefono = input("¿Por favor indíqueme su número de teléfono (+56 9)? ").strip()
-                    if validar_telefono(telefono):
-                        datos_usuario["telefono"] = telefono
-                    else:
-                        print("⚠️ Ingresa un número válido (solo dígitos, entre 8 y 15 caracteres).")
-
-                # Validar correo electrónico
-                while not datos_usuario["correo"]:
-                    correo = input("¿Cuál es su correo electrónico? ").strip()
-                    if validar_correo(correo):
-                        datos_usuario["correo"] = correo
-                    else:
-                        print("⚠️ Ingresa un correo electrónico válido (ej: ejemplo@dominio.com).")
-
-                print(f"¡Perfecto, {datos_usuario['nombre']}! Cita agendada con éxito.")
-                print(f"Detalles: Nombre: {datos_usuario['nombre']}, Teléfono: {datos_usuario['telefono']}, Correo: {datos_usuario['correo']}")
-
-                if not datos_guardados:
-                    guardar_usuario(datos_usuario)
-                    datos_guardados = True
+            # 6. Guardar los datos si ya están completos
+            if all(datos_usuario.values()) and not datos_guardados:
+                guardar_usuario(datos_usuario)
+                print(Fore.MAGENTA + "✅ Datos del usuario guardados correctamente.")
+                datos_guardados = True
 
     except KeyboardInterrupt:
-        print("\n🛑 Interrupción del usuario.")
+        print(Fore.RED + "\n🛑 Interrupción del usuario.")
         guardar_conversacion(chat_history)
 
     finally:
         client.close()
-        if not datos_guardados:
+        if all(datos_usuario.values()) and not datos_guardados:
             guardar_usuario(datos_usuario)
-        print("🔒 Conexión cerrada y datos guardados.")
+        print(Fore.CYAN + "🔒 Conexión cerrada y datos guardados.")
+        print(Fore.BLUE + "Datos guardados:", datos_usuario)
 
 if __name__ == "__main__":
     main()

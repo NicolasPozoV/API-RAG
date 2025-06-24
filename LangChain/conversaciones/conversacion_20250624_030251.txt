@@ -1,0 +1,59 @@
+Turno 1:
+Tú: hola
+Bot: ¡Hola! Gracias por contactarnos. Soy un asistente de Alloxentric, una empresa especializada en servicios de atención al cliente y gestión de procesos mediante Inteligencia Artificial.
+
+Me gustaría saber un poco más sobre ti y tu empresa para poder ayudarte de manera más efectiva. ¿Podrías proporcionarme tu nombre y correo electrónico, por favor?
+
+Estoy aquí para ayudarte a entender cómo Alloxentric puede asistirte en tus necesidades de atención al cliente o gestión de procesos. Nuestros servicios están diseñados para startups y scaleups como la tuya, y nos enfocamos en mejorar la calidad y la satisfacción del usuario.
+
+Estoy listo para escucharte y ofrecerte más información sobre nuestras soluciones.
+
+Turno 2:
+Tú: que servicios ofrece alloxentric
+Bot: Alloxentric ofrece servicios de Inteligencia Artificial (IA) y Comunicación Omnicanal para startups, scaleups y empresas de diferentes industrias, incluyendo seguros de vida y telecomunicaciones.
+
+Nuestros servicios incluyen:
+
+1. **Mesa de Ayuda: Agentes + IA**, que reduce el número de tickets que llegan a los agentes humanos hasta en un 40%.
+2. **Chatbot de canal de texto**, que funciona en múltiples canales de mensajería (WhatsApp, SMS, Telegram, etc.) y se puede utilizar para diversas tareas, como confirmar agendamientos, coordinar entregas, vender productos y servicios, y soporte técnico.
+3. **Plataforma de Comunicación Omnicanal**, que integra bots y agentes humanos para labores como cobranza, logística, ventas y más, con características como:
+ * Soporte de SMS y WhatsApp multiproveedor
+ * Soporte de Discord, Line, Signal, Telegram, Twitter, LinkedIn y Facebook
+ * Multi-agente
+ * Traspaso programado al agente
+ * Comprensión de intenciones
+ * Multi-idioma
+ * Acceso a dashboard y reportería
+
+Nuestros servicios están diseñados para mejorar la calidad y satisfacción del usuario, reducir costos y aumentar la eficiencia.
+
+¿Podrías proporcionarme tu nombre y correo electrónico para que pueda asistirte de manera más personalizada?
+
+Turno 3:
+Tú: javier nanco y jnanco@utem.cl
+Bot: Para entender cómo Alloxentric puede ayudar a su empresa, primero necesito saber un poco más sobre usted. ¿Podría proporcionarme su nombre y correo electrónico, por favor?
+
+Una vez que tenga esa información, podré ofrecerle una respuesta más personalizada sobre cómo nuestros servicios de Inteligencia Artificial pueden beneficiar a su empresa.
+
+Sin embargo, puedo adelantar que nuestros servicios están diseñados para mejorar la atención al cliente, reducir costos y aumentar la eficiencia en procesos como la gestión de tickets de soporte y la cobranza de deudas.
+
+Nuestros servicios incluyen:
+- Integración de Inteligencia Artificial para empoderar a los agentes de soporte.
+- Medición automática de la calidad de cada interacción para una mejora continua.
+- Reducción de hasta un 40% en el número de tickets que llegan a los agentes humanos.
+- Plataformas de comunicación omnicanal que integran voz, chatbots y agentes.
+
+Estoy aquí para ayudarle a entender cómo podemos ayudar a su empresa.
+
+Turno 4:
+Tú: vendo ropa por whatsapp y quiero hacer un agente que responda sobre precios y disponibilidad
+Bot: Para crear un agente automatizado que responda preguntas sobre precios y disponibilidad de ropa que vendes a través de WhatsApp, Alloxentric puede ayudarte con su plataforma de Comunicación Omnicanal. 
+
+Nuestros chatbots de texto funcionan sobre la mayoría de los servicios de mensajería más populares, incluyendo WhatsApp. Podemos ayudarte a crear un chatbot que responda automáticamente a preguntas sobre precios y disponibilidad de productos.
+
+Nuestra plataforma cuenta con características como comprensión de intenciones, multi-idioma y acceso a dashboard y reportería, lo que te permitirá personalizar y optimizar el rendimiento de tu chatbot.
+
+Además, nuestros sistemas cognitivos permiten la integración de modelos de lenguaje avanzados (LLM) que pueden crear flujos automatizados de respuesta inteligente y supervisada.
+
+Para seguir adelante, me gustaría saber un poco más sobre ti y tu negocio. ¿Podrías proporcionarme tu nombre y correo electrónico para que podamos discutir cómo podemos ayudarte de manera más personalizada?
+

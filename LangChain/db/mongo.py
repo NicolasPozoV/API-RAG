@@ -6,7 +6,7 @@ db = client["alloxentric"]
 coleccion = db["usuarios"]
 
 def guardar_usuario(datos_usuario: dict):
-    if datos_usuario["nombre"] and datos_usuario["correo"] and datos_usuario["telefono"]:
+    if datos_usuario["nombre"] and datos_usuario["correo"] and datos_usuario["empresa"] and datos_usuario["necesidad"]:
         resultado = coleccion.insert_one(datos_usuario)
         print(f"✅ Datos del usuario guardados en MongoDB con _id: {resultado.inserted_id}")
     else:

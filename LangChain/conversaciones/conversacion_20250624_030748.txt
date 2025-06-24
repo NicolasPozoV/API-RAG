@@ -1,0 +1,20 @@
+Turno 1:
+Tú: hola
+Bot: ¡Hola! Bienvenido a Alloxentric. Para poder ayudarte de manera efectiva, ¿podrías proporcionarme tu nombre y correo electrónico, por favor?
+
+Turno 2:
+Tú: me llamo javier nanco y mi correo es jnanco@utem.cl
+Bot: Hola, gracias por proporcionarnos tu información de contacto. Me llamo Javier Nanco y tu correo electrónico es jnanco@utem.cl. ¿Podrías decirme de qué empresa formas parte y en qué podemos ayudarte hoy?
+
+Turno 3:
+Tú: formo parte de una empresa que vende por delivery y quieor un agente que responda cuando viene el pedido
+Bot: Para implementar un agente que responda automáticamente cuando llegue un pedido a tu empresa de delivery, Alloxentric ofrece una solución integral que combina inteligencia artificial con agentes humanos. Nuestro servicio incluye bots y agentes que pueden gestionar las interacciones con tus clientes de manera eficiente.
+
+Nuestro enfoque se centra en la automatización para reducir costos y mejorar la eficiencia. Podemos ayudarte a implementar un sistema que clasifique y resuma conversaciones, genere respuestas automáticas basadas en el contexto de la empresa y el ámbito de competencia, y controle la calidad de las respuestas.
+
+Algunos de los beneficios de nuestra solución incluyen:
+- Reducción de hasta un 40% en el número de tickets que llegan a los agentes humanos.
+- Medición automática de la calidad de cada interacción para una mejora continua.
+
+Para seguir adelante, ¿podrías proporcionarnos tu nombre y correo electrónico para que podamos personalizar la información y ofrecerte un mejor servicio? Además, ¿podrías contarnos un poco más sobre tu empresa y tus necesidades específicas?
+

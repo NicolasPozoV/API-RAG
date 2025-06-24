@@ -1,0 +1,20 @@
+Turno 1:
+Tú: hola
+Bot: ¡Hola! Para poder ayudarte de manera efectiva, ¿podrías proporcionarme tu nombre y correo electrónico, por favor?
+
+Turno 2:
+Tú: me llamo josefa gonzales
+Bot: Josefa Gonzales, para continuar con nuestra conversación, ¿podrías proporcionarme tu correo electrónico?
+
+Turno 3:
+Tú: me indica los servicios de alloxentric
+Bot: Hola Josefa, gracias por contactarnos. Alloxentric ofrece servicios de Inteligencia Artificial para mejorar la experiencia del cliente y automatizar procesos. Nuestros servicios incluyen:
+
+1. Mesa de Ayuda: Agentes + IA, que reduce el número de tickets que llegan a los agentes humanos hasta en un 40%.
+2. Chatbots de texto por canales, que funcionan en la mayoría de los servicios de mensajería más populares, como WhatsApp, SMS, Telegram, entre otros.
+3. Plataforma de Comunicación Omnicanal, que integra bots y agentes humanos para labores como cobranza, logística, ventas y más.
+
+Nuestros servicios se enfocan en mejorar la calidad y satisfacción del usuario, y se aplican en industrias como seguros de vida y telecomunicaciones.
+
+Para poder ayudarte de manera más personalizada, ¿podrías proporcionarnos tu correo electrónico y contarnos un poco más sobre tu empresa o necesidad?
+

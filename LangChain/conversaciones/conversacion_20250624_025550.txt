@@ -1,0 +1,16 @@
+Turno 1:
+Tú: hola que hacen en alloxentric
+Bot: ¡Hola! En Alloxentric nos enfocamos en brindar soluciones de comunicación omnicanal y automatización para startups y scaleups, utilizando Inteligencia Artificial para mejorar la experiencia del usuario y reducir costos. Nuestros servicios incluyen mesa de ayuda con agentes y bots, así como herramientas de analítica para medir la calidad de las interacciones y mejorar la satisfacción del cliente.
+
+Para saber más sobre cómo podemos ayudarte, ¿podrías proporcionarme tu nombre y correo electrónico, por favor?
+
+Turno 2:
+Tú: javiernancob@gmail.com y me llamo javier nanco
+Bot: Hola Javier Nanco, gracias por proporcionar tu nombre y correo electrónico. ¿Podrías decirme un poco más sobre tu empresa o necesidad para que pueda entender mejor cómo Alloxentric puede ayudarte?
+
+Turno 3:
+Tú: mi empresa es una tienda de ropa y quiero que me pregunten por whatsapp
+Bot: Para implementar una solución de comunicación que te permita recibir preguntas de los clientes a través de WhatsApp en tu tienda de ropa, Alloxentric puede ayudarte con nuestra plataforma de Comunicación Omnicanal. Nuestros Chatbots de canal de texto están diseñados para funcionar en WhatsApp y otros servicios de mensajería populares, permitiendo una comunicación fluida y estructurada con tus clientes.
+
+Puedo proporcionarte más información sobre cómo podemos personalizar nuestra solución para tu negocio. ¿Podrías proporcionarme tu nombre y correo electrónico para que pueda enviarte más detalles? Además, ¿podrías decirme un poco más sobre tu empresa y qué necesidades específicas tienes para esta solución de comunicación?
+

@@ -1,0 +1,27 @@
+Turno 1:
+Tú: hola
+Bot: Hola, bienvenido a Alloxentric. ¿En qué podemos ayudarte hoy? Para poder asistirte de manera más personalizada, ¿podrías decirme tu nombre y correo electrónico, por favor?
+
+Turno 2:
+Tú: me indican los servicios de alloxentric
+Bot: La rephrase de la pregunta "me indican los servicios de alloxentric" en una pregunta independiente y clara es efectivamente: "¿Cuáles son los servicios que ofrece Alloxentric?" 
+
+Alloxentric ofrece servicios orientados a startups y scaleups que integran inteligencia artificial para potenciar a los agentes, con un enfoque en la calidad y la satisfacción del usuario. Nuestros servicios abarcan desde bots hasta agentes humanos, rastreando cada ticket y midiendo la calidad en cada etapa del proceso.
+
+Algunos de los servicios y características clave incluyen:
+- Reducción de hasta un 40% en el número de tickets que llegan a los agentes humanos.
+- Medición automática de la calidad de cada interacción para permitir la mejora continua.
+- Integración con otros sistemas de help desk como Zendesk y SysAid sin costo adicional.
+- Cumplimiento con estándares ISO27001 y PCI-DSS.
+- Acceso a un dashboard y reporting para monitorear el trabajo de cada agente y el estado de cada ticket.
+
+Para obtener más información personalizada sobre cómo podemos ayudar a su empresa, ¿podría proporcionarme su nombre y correo electrónico, por favor?
+
+Turno 3:
+Tú: me llamo javier y mi correo es jnanco@utem.cl
+Bot: Hola Javier, gracias por compartir tu nombre y correo electrónico. Ahora que tengo esa información, me gustaría saber un poco más sobre tu empresa y tus necesidades. ¿Cuál es el principal desafío que enfrenta tu empresa en cuanto a la atención al cliente o la comunicación con tus usuarios? 
+
+Alloxentric ofrece servicios de inteligencia artificial para mejorar la eficiencia en la atención al cliente, incluyendo la automatización de respuestas y el análisis de la calidad de las interacciones. Nuestros servicios pueden ayudar a reducir el número de tickets que llegan a los agentes humanos hasta en un 40%. 
+
+¿Te gustaría saber más sobre cómo podemos ayudarte a mejorar la experiencia de tus usuarios y aumentar la eficiencia en tu centro de atención?
+

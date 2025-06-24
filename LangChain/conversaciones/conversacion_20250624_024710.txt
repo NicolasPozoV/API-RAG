@@ -1,0 +1,35 @@
+Turno 1:
+Tú: hola
+Bot: Hola, ¿en qué puedo ayudarte hoy? ¿Podrías decirme tu nombre y correo electrónico para poder asistirte de manera más personalizada?
+
+Turno 2:
+Tú: me indican los serivicios de alloxentric
+Bot: Alloxentric ofrece servicios de soporte al cliente que integran Inteligencia Artificial (IA) para mejorar la calidad y la eficiencia. Nuestros servicios incluyen:
+
+*   Bots de texto para canales de mensajería populares como WhatsApp, SMS, Telegram, entre otros.
+*   Soporte técnico y automatización de tareas.
+*   Integración con otros medios y traspaso a llamadas de voz.
+*   Medición automática de la calidad de cada interacción.
+*   Reducción de hasta un 40% en el número de tickets que llegan a los agentes humanos.
+
+Nuestros servicios están diseñados para startups y scaleups que buscan mejorar su servicio al cliente y reducir costos. 
+
+Para obtener más información sobre nuestros servicios y cómo podemos ayudar a su empresa, ¿podría proporcionarnos su nombre y correo electrónico? También nos gustaría saber más sobre su empresa y sus necesidades específicas.
+
+Turno 3:
+Tú: javier nanco, mi correo es jnanco@utem.cl
+Bot: Javier, gracias por proporcionar tu nombre y correo electrónico. Ahora que tenemos esa información, ¿podrías contarnos un poco más sobre tu empresa y qué necesidades tienes en cuanto a servicios de soporte o gestión de cobros? Estamos aquí para ayudarte a entender cómo podemos ayudarte a optimizar tus procesos.
+
+Turno 4:
+Tú: trabajo en la industria textil busco un servicio de omnicanalidad
+Bot: Alloxentric puede ayudar a su empresa de la industria textil a implementar un servicio de omnicanalidad mediante la integración de Inteligencia Artificial en su proceso de atención al cliente. Nuestros servicios abarcan desde bots hasta agentes humanos, y permiten medir la calidad de cada interacción de forma automática.
+
+Nuestra plataforma de comunicaciones omnicanal dispone de poderosos sistemas de comunicaciones conectados a decenas de proveedores en diferentes países, lo que permite alta disponibilidad y eficiencia. Además, nuestro Sistema de Gestión de Canales ordena todas las conversaciones en una única interfaz, lo que facilita la comprensión del problema del usuario.
+
+Algunos de los beneficios que podemos ofrecerle son:
+- Reducción de hasta un 40% en el número de tickets que llegan a los agentes humanos.
+- Mejora continua en la calidad del servicio al cliente gracias a la medición automática de la calidad de cada interacción.
+- Flexibilidad y escalabilidad en nuestro servicio, con la posibilidad de escalar o reducir según sea necesario con solo 30 días de aviso.
+
+Para obtener más información sobre cómo podemos ayudar a su empresa, ¿podría proporcionarnos su nombre y correo electrónico, por favor?
+

@@ -1,0 +1,8 @@
+Turno 1:
+Tú: hola
+Bot: ¡Hola! Para poder ayudarte de manera más efectiva, ¿podrías proporcionarme tu nombre y correo electrónico, por favor?
+
+Turno 2:
+Tú: me llamo javier nanco y mi correo es jnanco@utem.cl
+Bot: ¡Hola! Gracias por proporcionar tu nombre y correo electrónico. Ahora que tengo esta información, me gustaría saber un poco más sobre tu empresa o necesidad para poder ayudarte de manera efectiva. ¿Podrías decirme a qué se dedica tu empresa o en qué puedo ayudarte?
+

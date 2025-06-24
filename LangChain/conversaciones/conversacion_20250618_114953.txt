@@ -1,0 +1,36 @@
+Turno 1:
+Tú: hola
+Bot: Hola. ¿En qué puedo ayudarte en relación con la empresa Alloxentric?
+
+Turno 2:
+Tú: si, pero me indicas los servicios de alloxentric
+Bot: Los servicios de Alloxentric incluyen:
+
+1. Plataforma de Comunicación Omnicanal que integra bots y agentes humanos para labores como la cobranza, la logística, la venta y otras.
+2. Chatbots para:
+   - Confirmar agendamiento o citas
+   - Coordinar la entrega de productos
+   - Vender productos y/o servicios
+   - Preliquidación de seguros
+   - Soporte técnico
+3. Soporte de SMS y WhatsApp multiproveedor
+4. Soporte de Discord, Line, Signal, Telegram, Twitter, LinkedIn y Facebook
+5. Servicios de atención al cliente que incluyen:
+   - Gestión de ventas
+   - Derivación de llamadas a ejecutivos
+   - Soporte automatizado a clientes
+   - Recepción de solicitudes o reclamos
+   - Entrega de información acerca de productos y servicios
+   - Agendamiento de instalación o entrega
+6. Gestión de cobranza
+7. Oferta de productos relacionados
+8. Campañas de pre-calificación y venta
+9. Coordinación logística
+10. Medición de la calidad de cada interacción automáticamente para permitir la mejora continua en el proceso.
+
+Alloxentric ofrece una solución que permite a las empresas mejorar su servicio al cliente, medir la calidad de manera holística y gradualmente integrar la automatización para gestionar los costos.
+
+Turno 3:
+Tú:  adios
+Bot: Adiós.
+

@@ -1,0 +1,16 @@
+Turno 1:
+Tú: holas
+Bot: "Holas". Parece que estás iniciando una conversación. ¿Podrías decirme tu nombre y correo electrónico para que pueda asistirte de manera personalizada?
+
+Turno 2:
+Tú: me llamo javier nanco y mi correo es javiernancob@gmail.com
+Bot: Hola Javier, gracias por proporcionarnos tu nombre y correo electrónico. Ahora que tenemos esta información, ¿podrías decirnos un poco más sobre tu empresa y qué necesidades tienes en cuanto a la gestión de cobro de deudas o servicio de atención al cliente? Estamos aquí para ayudarte con nuestras soluciones de automatización y análisis predictivo.
+
+Turno 3:
+Tú: trabajo vendiendo pan en mi empresa familiar, quiero que la gente pueda llama y un agente haga la reservacion
+Bot: Para que tus clientes puedan hacer reservas o pedidos de pan por teléfono con la ayuda de un agente, te recomiendo explorar nuestra solución de Mesa de Ayuda: Agentes+IA. Esta solución puede ayudarte a gestionar las llamadas entrantes y a reducir el número de tickets que llegan a los agentes humanos hasta en un 40%. 
+
+Nuestra plataforma de comunicaciones omnicanal permite la comunicación mediante llamadas telefónicas y otros canales, y cuenta con un Sistema de Gestión de Canales que ordena todas las conversaciones en una única interfaz. De esta manera, tus agentes podrán ver el historial asociado a la identidad del cliente y comprender mejor su necesidad.
+
+Para entender mejor tus necesidades y explorar cómo podemos ayudarte, ¿podrías proporcionarme más información sobre tu empresa y tus requerimientos específicos?
+

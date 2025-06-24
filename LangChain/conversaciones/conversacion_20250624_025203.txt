@@ -1,0 +1,32 @@
+Turno 1:
+Tú: hola
+Bot: Hola. ¿En qué podemos ayudarte hoy? Para poder asistirte de manera más personalizada, ¿podrías decirme tu nombre y correo electrónico, por favor?
+
+Turno 2:
+Tú: que hacen
+Bot: ¡Hola! Me parece que estás interesado en saber más sobre Alloxentric. ¿Podrías decirme tu nombre y correo electrónico para que pueda brindarte una asistencia más personalizada?
+
+Turno 3:
+Tú: javier nanco y jnanco@utem.cl, me indican los servicios de alloxentric
+Bot: Alloxentric ofrece servicios de atención al cliente que combinan agentes humanos con Inteligencia Artificial (IA) para mejorar la calidad y eficiencia en la gestión de tickets y soporte. Nuestros servicios incluyen:
+
+1. **Mesa de Ayuda: Agentes + IA** - Reduce el número de tickets que llegan a los agentes humanos hasta en un 40%.
+2. **Automatización** - Priorizamos la automatización para manejar costos y mejorar la eficiencia.
+3. **Medición de calidad** - Nuestra plataforma mide la calidad de cada interacción de forma automática, permitiendo una mejora continua.
+4. **Integración con otros sistemas** - Nuestros servicios pueden integrarse con otros sistemas de gestión de tickets como Zendesk y SysAid sin costo adicional.
+5. **Capacitación y documentación** - Creamos materiales de capacitación, actualizamos FAQs y generamos documentación para apoyar nuestras acciones.
+
+Nuestros procesos siguen los estándares ISO27001 y PCI-DSS, garantizando la seguridad y transparencia en nuestros servicios.
+
+¿Cuál es tu empresa o necesidad específica, Javier?
+
+Turno 4:
+Tú: quiero implementar un bot de conversacion en mi empresa de lavanderia para que la gente pueda preguntar cuando este lista su prenda, mas que nada un agente
+Bot: Para implementar un bot de conversación en tu empresa de lavandería utilizando los servicios de Alloxentric, puedes aprovechar nuestra Plataforma de Comunicación Omnicanal y nuestros Sistemas Cognitivos.
+
+ Primero, te recomiendo considerar qué canal de comunicación prefieren tus clientes (por ejemplo, WhatsApp, SMS, o chat en sitio web). Luego, puedes configurar un bot utilizando nuestra API de Conversación como Servicio, que te permite crear experiencias de conversación personalizadas.
+
+ Nuestros Sistemas Cognitivos incluyen funcionalidades como Speech to Text (STT) y Text to Speech (TTS), que te permiten manejar interacciones tanto de texto como de voz. Además, nuestra plataforma es integrable con diferentes proveedores, lo que garantiza alta disponibilidad y eficiencia.
+
+ Para empezar, ¿podrías proporcionarme tu nombre y correo electrónico para que pueda asistirte de manera más personalizada? También sería útil saber un poco más sobre tus necesidades específicas y cómo visualizas el funcionamiento del bot en tu empresa de lavandería.
+

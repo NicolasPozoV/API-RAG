@@ -1,0 +1,39 @@
+Turno 1:
+Tú: hola
+Bot: Hola, bienvenido a Alloxentric. ¿En qué puedo ayudarte hoy?
+
+Turno 2:
+Tú: me indicas informacion sobre sus servicios
+Bot: Alloxentric ofrece una plataforma de Comunicación Omnicanal que incluye varios servicios, como:
+
+1. **Chatbots de texto**: funcionan en múltiples canales de mensajería (WhatsApp, SMS, Telegram, etc.) y se utilizan para diversas tareas, como confirmar citas, coordinar entregas, vender productos y brindar soporte técnico.
+2. **Sistemas de Comunicaciones**: permiten la comunicación a través de llamadas telefónicas, mensajes de audio y sistemas de mensajería, utilizando elementos de IA para optimizar estas acciones.
+3. **Sistema de Gestión de Canales**: ordena todas las conversaciones en una única interfaz, permitiendo a los agentes ver el historial asociado a la identidad del cliente.
+4. **Sistemas Cognitivos**: proporcionan flexibilidad para los constructores de bots y experiencias de usuario, con servicios como Speech to Text, Text to Speech y Conversación como Servicio.
+5. **Modelos de predicción de abandono**: utilizan Inteligencia Artificial para segmentar a los clientes en clusters de probabilidad de abandono y definir acciones para retenerlos.
+
+Además, nuestra plataforma es integrable con otros sistemas de mesa de ayuda y sigue las normas ISO27001 y PCI-DSS.
+
+¿Cuál es tu necesidad específica con respecto a nuestros servicios?
+
+Turno 3:
+Tú: chatbots de texto
+Bot: Puedes implementar los chatbots de texto en varios canales de mensajería, como SMS, e-mail, WhatsApp y Telegram. ¿En qué industria o sector estás considerando implementar estos chatbots?
+
+Turno 4:
+Tú: en la industria del marketing
+Bot: Los chatbots de texto ofrecen varias opciones y funcionalidades para la industria del marketing, como confirmar agendamientos o citas, coordinar entregas de productos, vender productos y servicios, preliquidación de seguros y soporte técnico. Además, permiten la integración con otros medios y pueden servir como mecanismos de doble factor de autenticación.
+
+Algunas de las características clave de los chatbots de texto de Alloxentric incluyen:
+- Soporte de SMS y WhatsApp multiproveedor
+- Soporte de Discord, Line, Signal, Telegram, Twitter, LinkedIn y Facebook
+- Multi-agente
+- Traspaso programado al agente
+- Comprensión de intenciones
+- Multi-idioma
+- Acceso a dashboard y reportería
+
+Para implementar chatbots de texto en la industria del marketing, se pueden seguir tres simples pasos: diseño de experiencia, configuración de telefonía y canales de mensajería, y pruebas y paso a producción.
+
+¿En qué área específica de la industria del marketing le gustaría implementar chatbots de texto?
+
