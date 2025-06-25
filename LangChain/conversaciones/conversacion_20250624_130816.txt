@@ -1,0 +1,58 @@
+Turno 1:
+Tú: hola
+Bot: ¡Hola! Para poder ayudarte de manera efectiva, ¿podrías proporcionarme tu nombre y correo electrónico, por favor?
+
+Turno 2:
+Tú: no
+Bot: Para poder ayudarte de manera efectiva, me gustaría saber un poco más sobre ti. ¿Podrías proporcionarme tu nombre y correo electrónico, por favor?
+
+Turno 3:
+Tú: no
+Bot: ¿Quieres proporcionar tu nombre y correo electrónico?
+
+Turno 4:
+Tú: no quiero
+Bot: Para poder brindarte la información que necesitas de manera personalizada y eficiente, me gustaría saber un poco más sobre ti. ¿Podrías proporcionarme tu nombre y correo electrónico, por favor?
+
+Turno 5:
+Tú: nop
+Bot: ¿Podrías proporcionarme tu nombre y correo electrónico para poder asistirte de manera más personalizada?
+
+Turno 6:
+Tú: si
+Bot: Para poder ayudarte de manera efectiva, ¿podrías proporcionarme tu nombre y correo electrónico?
+
+Turno 7:
+Tú: aranza a@a.a
+Bot: Para seguir adelante, me gustaría saber un poco más sobre tu empresa y tus necesidades. ¿Podrías decirme a qué se dedica tu empresa y qué necesitas en términos de servicio de atención al cliente o cualquier otro proceso que te gustaría optimizar?
+
+Turno 8:
+Tú: hacemos pizzas de pollo 
+Bot: Aranza, gracias por compartir que trabajas en "hacemos pizzas de pollo". Entiendo que buscas optimizar tu servicio de atención al cliente o algún otro proceso. Alloxentric ofrece soluciones de servicio al cliente con Inteligencia Artificial que pueden ayudarte a mejorar la calidad y eficiencia de tus procesos.
+
+Nuestro servicio puede ayudarte a reducir el número de tickets que llegan a tus agentes humanos hasta en un 40%. Además, nuestra plataforma mide la calidad de cada interacción de forma automática, lo que te permite identificar oportunidades de mejora y optimizar tus procesos.
+
+Algunos de los beneficios de nuestra solución incluyen:
+- Mejora en la calidad del servicio al cliente
+- Reducción de costos operativos
+- Mayor eficiencia en la gestión de tickets
+- Flexibilidad y escalabilidad en el servicio
+
+¿Podrías contarme un poco más sobre tus necesidades específicas en cuanto a servicio de atención al cliente o procesos de optimización en tu empresa de pizzas de pollo?
+
+Turno 9:
+Tú: quiero ganae más plata y no puedo estar atendiendo el instagram siempre 
+Bot: Para optimizar tu servicio de atención al cliente y ganar más dinero sin tener que atender Instagram constantemente, te recomiendo explorar nuestra plataforma de Comunicación Omnicanal de Alloxentric. 
+
+Nuestra solución puede ayudarte a automatizar y eficientar la atención al cliente a través de diferentes canales, incluyendo mensajes de texto y llamadas automatizadas con voces que suenan humanas y con acentos locales. Esto te permitirá reducir el tiempo dedicado a responder consultas en Instagram y otros canales.
+
+Además, nuestro modelo basado en Inteligencia Artificial puede ayudarte a segmentar a tus clientes y predecir su comportamiento, lo que te permitirá tomar acciones proactivas para retener a tus clientes más valiosos.
+
+Algunos de los beneficios clave de nuestra solución incluyen:
+- Automatización de respuestas a consultas comunes
+- Análisis de llamadas y mensajes para identificar oportunidades de mejora
+- Predicción de abandono de clientes y acciones proactivas para retenerlos
+- Integración con otros sistemas de mesa de ayuda sin costo adicional
+
+Me gustaría saber más sobre tus necesidades específicas y cómo podemos ayudarte a optimizar tu servicio de atención al cliente. ¿Cuál es tu principal desafío al atender a tus clientes actualmente?
+
