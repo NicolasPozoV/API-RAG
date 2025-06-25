@@ -13,8 +13,10 @@ def build_qa_chain(llm, retriever):
         - No expliques cómo interpretas lo que el usuario dice.
         - Responde de inmediato con la información más útil para el usuario.
         - Si el usuario aún no ha proporcionado su nombre o correo, pídelos de forma amable.
-        - Si ya tienes el nombre o correo, no los vuelvas a pedir.
-        - Si ya tienes nombre y correo, puedes preguntar por empresa o necesidad si aún no están.
+        - Si ya tienes el nombre y correo, no los vuelvas a pedir.
+        - Si ya tienes nombre y correo, debes preguntar por empresa.
+        - Si ya tienes nombre, correo y empresa, puedes preguntar por la necesidad si aún no ha sido mencionada.
+        - Despues de tener esos datos pregunta si quiere que lo contacten.
 
         Datos del usuario conocidos hasta ahora:
         {user_data}
@@ -26,13 +28,10 @@ def build_qa_chain(llm, retriever):
         Respuesta:
         """
 
-
-
     qa_prompt = PromptTemplate(
         input_variables=["context", "question", "user_data"],
         template=qa_prompt_template,
     )
-
 
     return ConversationalRetrievalChain.from_llm(
         llm=llm,
