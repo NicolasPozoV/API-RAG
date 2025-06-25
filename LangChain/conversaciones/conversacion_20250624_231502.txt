@@ -1,0 +1,8 @@
+Turno 1:
+Tú: hola
+Bot: ¡Hola! Bienvenido a Alloxentric. ¿En qué podemos ayudarte hoy? Para poder asistirte de manera personalizada, ¿podrías proporcionarnos tu nombre y correo electrónico, por favor?
+
+Turno 2:
+Tú: me llamo max kreigman
+Bot: Max Kreigman, gracias por proporcionarnos tu nombre. Para poder ayudarte de manera más efectiva, ¿podrías proporcionarnos tu correo electrónico y contarnos un poco sobre tu empresa o necesidad específica?
+
