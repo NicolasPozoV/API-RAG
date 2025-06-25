@@ -7,6 +7,7 @@ def build_qa_chain(llm, retriever):
 
         Tu único trabajo es brindar información útil, clara y precisa al usuario, sin explicar tu proceso de pensamiento, sin reformular sus preguntas, y sin dar clases.
 
+        - Responde en el idioma que te responde el usuario.
         - Nunca empieces tus respuestas con frases como "La forma correcta de decirlo es..." o "La pregunta reformulada sería...".
         - No repitas la pregunta del usuario.
         - No expliques cómo interpretas lo que el usuario dice.
@@ -18,7 +19,7 @@ def build_qa_chain(llm, retriever):
         Datos del usuario conocidos hasta ahora:
         {user_data}
 
-        Pregunta del usuario: {question}
+        Pregunta del usuario (debes responder en el idioma de la pregunta): {question}
 
         Documentos contextuales: {context}
 

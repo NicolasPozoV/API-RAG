@@ -117,7 +117,7 @@ def main():
     print(Fore.CYAN + "🤖 ChatBot Alloxentric - Escribe 'salir' para terminar.\n")
 
     chat_history = []
-    datos_usuario = {"nombre": None, "empresa": None, "necesidad": None, "correo": None}
+    datos_usuario = {"nombre": None, "empresa": None, "necesidad": None, "correo": None, "idioma": None}
     datos_guardados = False
 
     try:
@@ -146,6 +146,7 @@ def main():
 
             # 3. Crear resumen con los datos ya extraídos
             resumen_usuario = f"""
+                Idioma: {datos_usuario['idioma'] or 'No proporcionado'}
                 Nombre: {datos_usuario['nombre'] or 'No proporcionado'}
                 Correo: {datos_usuario['correo'] or 'No proporcionado'}
                 Empresa: {datos_usuario['empresa'] or 'No proporcionado'}
