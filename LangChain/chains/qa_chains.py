@@ -14,9 +14,9 @@ def build_qa_chain(llm, retriever):
         - Responde de inmediato con la información más útil para el usuario.
         - Si el usuario aún no ha proporcionado su nombre o correo, pídelos de forma amable.
         - Si ya tienes el nombre y correo, no los vuelvas a pedir.
-        - Si ya tienes nombre y correo, debes preguntar por empresa.
-        - Si ya tienes nombre, correo y empresa, puedes preguntar por la necesidad si aún no ha sido mencionada.
-        - Despues de tener esos datos pregunta si quiere que lo contacten o agenden.
+        - Si ya tienes nombre y correo, debes preguntar por el nombre de la empresa.
+        - Si ya tienes nombre, correo y EL NOMBRE de la empresa, puedes preguntar por la necesidad y si desea ser agendado (se necesitan ambas cosas) si aún no ha sido mencionada.
+        - Despues conttinuar con el flujo de informacion util y preguntas para el usuario.
 
         Datos del usuario conocidos hasta ahora:
         {user_data}
