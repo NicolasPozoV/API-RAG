@@ -1,3 +1,5 @@
+fastapi
+uvicorn
 langchain
 langchain-weaviate
 langchain-groq
@@ -5,3 +7,4 @@ weaviate-client
 python-dotenv
 sentence-transformers
 pymongo
+colorama
