@@ -1,93 +1,3 @@
-# from db.mongo import guardar_usuario
-# from embeddings.embedding_model import CustomEmbedding
-# from retriever.weaviate_client import get_client
-# from retriever.vector_store import create_vectorstore
-# from llm.groq_model import load_llm
-# from chains.qa_chains import build_qa_chain
-# from chains.extraction import build_extractor_chain
-# from utils.guardar_chat import guardar_conversacion
-# from config.respuestas_salida import RESPUESTAS_SALIDA
-# import json
-# from colorama import init, Fore, Style
-
-# init(autoreset=True)  # Para que los colores se reinicien después de cada línea
-
-# def main():
-#     client = get_client()
-#     embedding_model = CustomEmbedding()
-#     vectorstore = create_vectorstore(client, embedding_model)
-#     llm = load_llm()
-
-#     qa_chain = build_qa_chain(llm, vectorstore.as_retriever())
-#     extractor_chain = build_extractor_chain(llm)
-
-#     print(Fore.CYAN + "🤖 ChatBot Alloxentric - Escribe 'salir' para terminar.\n")
-#     chat_history = []
-
-#     datos_usuario = {
-#         "nombre": None,
-#         "empresa": None,
-#         "necesidad": None,
-#         "correo": None
-#     }
-#     datos_guardados = False
-
-#     try:
-#         while True:
-#             query = input(Fore.GREEN + "Tú: " + Style.RESET_ALL)
-#             if query.lower() in RESPUESTAS_SALIDA:
-#                 print(Fore.CYAN + "👋 ¡Hasta luego, recuerda ante cualquier duda puedes contactarnos a info@alloxentric.com!")
-#                 guardar_conversacion(chat_history)
-#                 break
-
-#             resumen_usuario = f"""
-#                 Nombre: {datos_usuario['nombre'] or 'No proporcionado'}
-#                 Correo: {datos_usuario['correo'] or 'No proporcionado'}
-#                 Empresa: {datos_usuario['empresa'] or 'No proporcionado'}
-#                 Necesidad: {datos_usuario['necesidad'] or 'No proporcionado'}
-#                 """.strip()
-
-#             respuesta = qa_chain.invoke({
-#                 "question": query,
-#                 "chat_history": chat_history,
-#                 "user_data": resumen_usuario
-#             })
-
-
-#             print(Fore.YELLOW + "Bot (RAG):", respuesta["answer"])
-#             chat_history.append((query, respuesta["answer"]))
-
-#             # Extraer datos del historial
-#             resultado = extractor_chain.invoke({"chat_history": str(chat_history)})
-#             try:
-#                 extraidos = json.loads(resultado)
-#                 for key in datos_usuario:
-#                     if not datos_usuario[key] and extraidos.get(key):
-#                         datos_usuario[key] = extraidos[key]
-#             except:
-#                 pass  # LLM no devolvió JSON válido
-
-#             # Guardar si está completo
-#             if all(datos_usuario.values()) and not datos_guardados:
-#                 guardar_usuario(datos_usuario)
-#                 print(Fore.MAGENTA + "✅ Datos del usuario guardados correctamente.")
-#                 datos_guardados = True
-
-#     except KeyboardInterrupt:
-#         print(Fore.RED + "\n🛑 Interrupción del usuario.")
-#         guardar_conversacion(chat_history)
-
-#     finally:
-#         client.close()
-#         if all(datos_usuario.values()) and not datos_guardados:
-#             guardar_usuario(datos_usuario)
-#         print(Fore.CYAN + "🔒 Conexión cerrada y datos guardados.")
-#         print(Fore.BLUE + "Datos guardados:", datos_usuario)
-
-# if __name__ == "__main__":
-#     main()
-
-
 from db.mongo import guardar_usuario
 from embeddings.embedding_model import CustomEmbedding
 from retriever.weaviate_client import get_client
@@ -117,7 +27,7 @@ def main():
     print(Fore.CYAN + "🤖 ChatBot Alloxentric - Escribe 'salir' para terminar.\n")
 
     chat_history = []
-    datos_usuario = {"nombre": None, "empresa": None, "necesidad": None, "correo": None, "idioma": None}
+    datos_usuario = {"nombre": None, "empresa": None, "necesidad": None, "correo": None, "idioma": None , "agenda": None}
     datos_guardados = False
 
     try:
@@ -151,6 +61,7 @@ def main():
                 Correo: {datos_usuario['correo'] or 'No proporcionado'}
                 Empresa: {datos_usuario['empresa'] or 'No proporcionado'}
                 Necesidad: {datos_usuario['necesidad'] or 'No proporcionado'}
+                Agenda: {datos_usuario['agenda'] or 'No proporcionado'}
                 """.strip()
 
             # 4. Obtener respuesta del bot usando el resumen actualizado

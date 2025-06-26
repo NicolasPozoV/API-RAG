@@ -16,7 +16,7 @@ def build_qa_chain(llm, retriever):
         - Si ya tienes el nombre y correo, no los vuelvas a pedir.
         - Si ya tienes nombre y correo, debes preguntar por empresa.
         - Si ya tienes nombre, correo y empresa, puedes preguntar por la necesidad si aún no ha sido mencionada.
-        - Despues de tener esos datos pregunta si quiere que lo contacten.
+        - Despues de tener esos datos pregunta si quiere que lo contacten o agenden.
 
         Datos del usuario conocidos hasta ahora:
         {user_data}
