@@ -1,0 +1,2 @@
+PyMuPDF==1.25.2
+weaviate-client==4.15.4
