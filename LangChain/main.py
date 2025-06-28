@@ -32,7 +32,7 @@ def chat(request: ChatRequest):
 # ---  SERVIR EL FRONTEND  ----------------------------------
 # Monta la carpeta FrontEnd en la raíz (“/”)
 app.mount(
-    "/",                        # ruta raíz
-    StaticFiles(directory="../FrontEnd", html=True),
+    "/",  # sirve en la raíz
+    StaticFiles(directory="FrontEnd", html=True),
     name="frontend",
 )
